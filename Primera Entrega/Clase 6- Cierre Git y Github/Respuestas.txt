@@ -1,0 +1,10 @@
+a. Linus Torvalds, con los desarrolladores Junio Hamano, Linus Torvalds .
+Fue diseñado para el control de nuevas versiones de software, pensando
+en la eficiencia compatibilidad.
+
+b. Microsoft GitHub Inc. Microsoft. Microsoft la compra ya que es la paltaforma
+mas grande de desarrollo en actualizaciones de versiones.
+Microsoft asegura que GitHub mantendrá su distintivo enfoque de anteponer a los$
+, herramientas y sistemas operativos de su elección para sus proyectos.
+
+c.  Amazon con AWS
