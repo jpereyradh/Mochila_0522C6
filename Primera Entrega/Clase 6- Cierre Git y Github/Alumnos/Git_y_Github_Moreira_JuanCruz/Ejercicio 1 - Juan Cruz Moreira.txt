@@ -1,0 +1,7 @@
+A) Linus Torvalds creo GIT para que los usuarios puedan escribir la interfaz de usuario pero con el tiempo fue
+tomando otro rumbo y termino siendo un sistema de control de versiones.
+
+B) GitHub pertenece a Microsoft porque la compro para acelerar su avance y poder brindar una mejor experiencia
+a sus usuarios.
+
+C) No, la unica forma es con una terminal.
