@@ -1,0 +1,3 @@
+Matilda Amd Ryzen 5 3600 (6 nucleos, 12hilos, 4.2Ghz, Cache L: 3MB,L3: 32MB, Lanzamiendo 07/2019 )
+Marcelo intel i3 3230 (2 nucleos, 4hilos, 3.3Ghz, Cache L: 256Kb, L3: 3MB,Lanzamiento 09/2012)
+Hermano mayor Amd a8 9600 (4 nucleos, 4hilos, 3.4Ghz, Cache L2: 2MB, Lanzamiento 07/2017)
