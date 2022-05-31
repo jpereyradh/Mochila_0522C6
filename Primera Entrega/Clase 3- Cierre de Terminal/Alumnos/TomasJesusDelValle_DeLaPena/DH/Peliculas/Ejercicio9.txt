@@ -1,0 +1,13 @@
+Si, es posible crear las carpetas en un solo comando
+Mediante el comadno  'mkdir Infantiles/ Accion/ Terror/ Comedia/ Romanticas/'
+
+Si es posible crear los arhivos del punto 3 con un solo comando
+ touch Infantiles/Intenzamente.txt Infantiles/'El juego del miedo'.xls Infantiles/'Rapido  y furioso'.pdf Infantiles/Titanic.jpg 
+
+Estando ubicados en la carpeta DH crear una carpeta llamada Prueba dentro de
+la carpeta Romanticas en un solo comando y escribirlo aquí.
+ mkdir Peliculas/Romanticas/Prueba
+
+Estando ubicados en la carpeta Romanticas crear una carpeta llamada Prueba2
+dentro de la carpeta Accion
+  mkdir ../Accion/Prueba2
