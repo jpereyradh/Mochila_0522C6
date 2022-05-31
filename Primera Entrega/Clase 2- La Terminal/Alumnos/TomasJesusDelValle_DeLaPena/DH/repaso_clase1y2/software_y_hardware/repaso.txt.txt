@@ -1,0 +1,11 @@
+-	Hardware: El hardware o equipo se refiere a las partes físicas tangibles, de un sistema informático
+o	Entrada: son aquellos componentes que permiten el ingreso de información, general de alguna fuente externa o por parte del usuario, proveen el medio fundamental de transferir hacia la computadora la información desde alguna fuente sea local o remota Ejemplos: teclado, escáner, micrófono, lectoras de CD
+o	Salida: son aquellos que permiten dar salida a la información resultado de las operaciones realizadas por el CPU Ejemplo monitores. Impresoras, consolas
+o	Interno: es el conjunto de componentes físicos indispensables para el correcto funcionamiento del dispositivo Ejemplo: Placa Base, CPU, RAM, GPU
+
+
+-	Software: es el encargado de enviar instrucciones al hardware el cual ejecuta dichas instrucciones haciendo posible su funcionamiento
+o	Sistemas: dan al usuario y al programador las adecuadas interfaces de alto nivel, controladores, herramientas y utilidades de apoyo que permiten el mantenimiento del sistema global Ejemplo: los sistemas operativos, los controladores, herramientas de diagnóstico, control de dispositivos etc.
+o	Programas: son los que permiten al programados desarrollar programas de informática utilizando diferentes herramientas, lenguajes de programación ejemplo de ello son los editores de texto, los intérpretes, los entornos de desarrollo integrados (IDE)
+o	Aplicación: es aquel que le permite al usuario llevar a cabo una o varias tareas específicas, en cualquier campo de actividad susceptible a ser automatizado ejemplo las Aplicaciones ofimáticas 
+

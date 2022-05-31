@@ -1,0 +1,6 @@
+Tenemos 3 interfaces de usuario princiaples
+CLI (Command line interface): Interfaz de línea de comandos
+GUI (Graphical user interface): Interfaz gráfica de usuario
+NUI (Natural user interface): Interfaz natural de usuario
+
+La interfaz de usuario es el medio con que el usuario usa para comunicarse con una máquina, equipo, computadora o dispositivo, y comprende todos los puntos de contacto entre el usuario y el equipo.
