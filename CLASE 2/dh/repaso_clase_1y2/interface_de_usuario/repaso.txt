@@ -1,0 +1,1 @@
+Interfaces de usuario, sirve para comunicar al usuario de un sistema informático con este último. Por ejemplo: un teclado y un ratón constituyen una interfaz de usuario entre un PC y su usuario

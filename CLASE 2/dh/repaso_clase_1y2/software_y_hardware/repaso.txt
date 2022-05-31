@@ -1,0 +1,2 @@
+El hardware es la estructura que da soporte físico a la computadora mientras que el software es el soporte operacional. 
+En conjunto, hardware y software son elementos indispensables para el funcionamiento del computador y otros dispositivos electrónicos.
