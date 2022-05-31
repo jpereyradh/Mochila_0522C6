@@ -1,0 +1,14 @@
+tomas@TOMASDLPESC MINGW64 ~/Desktop/Mochila_0522C6/Primera Entrega/Clase 2- La Terminal/Alumnos/TomasJesusDelValle_DeLaPena/DH (Tomas_Jesus_Del_Valle_De_La_Pena)
+$ cd repaso_clase1y2/
+
+tomas@TOMASDLPESC MINGW64 ~/Desktop/Mochila_0522C6/Primera Entrega/Clase 2- La Terminal/Alumnos/TomasJesusDelValle_DeLaPena/DH/repaso_clase1y2 (Tomas_Jesus_Del_Valle_De_La_Pena)
+$ mv historia_de_la_contabilidad historia_de_la_informatica
+
+tomas@TOMASDLPESC MINGW64 ~/Desktop/Mochila_0522C6/Primera Entrega/Clase 2- La Terminal/Alumnos/TomasJesusDelValle_DeLaPena/DH/repaso_clase1y2 (Tomas_Jesus_Del_Valle_De_La_Pena)
+$ mv que_haremos_hoy software_y_hardware
+
+tomas@TOMASDLPESC MINGW64 ~/Desktop/Mochila_0522C6/Primera Entrega/Clase 2- La Terminal/Alumnos/TomasJesusDelValle_DeLaPena/DH/repaso_clase1y2 (Tomas_Jesus_Del_Valle_De_La_Pena)
+$ mv infraestructura git_bash_y_vscode
+
+tomas@TOMASDLPESC MINGW64 ~/Desktop/Mochila_0522C6/Primera Entrega/Clase 2- La Terminal/Alumnos/TomasJesusDelValle_DeLaPena/DH/repaso_clase1y2 (Tomas_Jesus_Del_Valle_De_La_Pena)
+$

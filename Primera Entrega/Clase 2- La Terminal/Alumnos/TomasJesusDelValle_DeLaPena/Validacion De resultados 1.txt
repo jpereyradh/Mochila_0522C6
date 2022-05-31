@@ -1,0 +1,20 @@
+tomas@TOMASDLPESC MINGW64 ~/Desktop/Mochila_0522C6/Primera Entrega/Clase 2- La Terminal/Alumnos/TomasJesusDelValle_DeLaPena/DH (Tomas_Jesus_Del_Valle_De_La_Pena)
+$ ls -R
+.:
+repaso_clase1y2/
+
+./repaso_clase1y2:
+historia_de_la_contabilidad/  infraestructura/  interfaces_de_usuario/  que_haremos_hoy/  servidores/
+
+./repaso_clase1y2/historia_de_la_contabilidad:
+
+./repaso_clase1y2/infraestructura:
+
+./repaso_clase1y2/interfaces_de_usuario:
+
+./repaso_clase1y2/que_haremos_hoy:
+
+./repaso_clase1y2/servidores:
+
+tomas@TOMASDLPESC MINGW64 ~/Desktop/Mochila_0522C6/Primera Entrega/Clase 2- La Terminal/Alumnos/TomasJesusDelValle_DeLaPena/DH (Tomas_Jesus_Del_Valle_De_La_Pena)
+$
