@@ -1,5 +1,13 @@
-A. Git fue desarrollado originalmente por Linus Torvalds, creador del kernel del sistema operativo Linux, en 2005. Torvalds lo desarrolló con la mentalidad de crear un nuevo gestor de control de versiones, bajo los pilares de eficiencia, confiabilidad y compatibilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente. Desde el 2009 y hasta la actualidad, el mantenimiento del software de Git está supervisado por Junio Hamano.
+A. ¿Quién inventó el sistema de control de versión Git y por qué?
 
-B. Actualmente, GitHub pertenece Microsoft. La empresa adquirió la plataforma en 2018, con el objetivo de adoptar GitHub como medio principal de control de versiones de Windows, acercándose además a la comunidad de desarrolladores y a la filosofía del código abierto.
+ Git fue desarrollado originalmente por Linus Torvalds, creador del kernel del sistema operativo Linux, en 2005. Torvalds lo desarrolló con la mentalidad de crear un nuevo gestor de control de versiones, bajo los pilares de eficiencia, confiabilidad y compatibilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente. Desde el 2009 y hasta la actualidad, el mantenimiento del software de Git está supervisado por Junio Hamano.
 
-C. Es posible trabajar con GitHub en el repositorio remoto de la página web y hacer modificaciones desde allí mismo, aunque es una alternativa poco cómoda en comparación al uso de la terminal, que además está integrada a la perfección con VSC. Así, codear, commitear y pushear se vuelven un proceso simple, cómodo y rápido.
+
+B. ¿A quién pertenece actualmente Github y por qué?
+
+ Actualmente, GitHub pertenece Microsoft. La empresa adquirió la plataforma en 2018, con el objetivo de adoptar GitHub como medio principal de control de versiones de Windows, acercándose además a la comunidad de desarrolladores y a la filosofía del código abierto.
+
+
+C. ¿Hay otra forma que no sea la terminal para trabajar con Github?
+
+ Es posible trabajar con GitHub en el repositorio remoto de la página web y hacer modificaciones desde allí mismo, aunque es una alternativa poco cómoda en comparación al uso de la terminal, que además está integrada a la perfección con VSC. Así, codear, commitear y pushear se vuelven un proceso simple, cómodo y rápido. También está la opción de usar "Git GUI", que es un software de interfaz gráfica del sistema de control de versiones de Git.
