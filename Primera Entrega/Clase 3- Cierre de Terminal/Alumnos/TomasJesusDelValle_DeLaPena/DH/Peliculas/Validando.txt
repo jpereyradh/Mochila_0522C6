@@ -1,0 +1,37 @@
+.:
+Accion/
+Comedia/
+Infantiles/
+Romanticas/
+Terror/
+Validando.txt
+
+./Accion:
+Cars.jpg
+Diario de una pasion.js
+El hexorcista.xls
+Smooth
+
+./Comedia:
+IT.xls
+Madagaskar.js
+Mision imposible.png
+Orgullo y prejuicio.txt
+
+./Infantiles:
+El juego del miedo.xls
+Intenzamente.txt
+Rapido y furioso.pdf
+Titanic.jpg
+
+./Romanticas:
+Annabelle.js
+La mascara.js
+Los vengadores.js
+Pocahontas.jpg
+
+./Terror:
+La dama y el bagavundo.png
+Que paso ayer.pdf
+We will rock you.js
+Yo antes de ti.xls
