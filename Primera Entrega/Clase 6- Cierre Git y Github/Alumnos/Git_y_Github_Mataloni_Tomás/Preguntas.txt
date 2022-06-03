@@ -1,0 +1,8 @@
+1- Fue creado por Linus Torvalds.
+Se creo porque es una valiosa herramienta con numerosos beneficios para un flujo de trabajo de equipos de software de colaboración. 
+Cualquier proyecto de software que tiene más de un desarrollador manteniendo archivos de código fuente debe, sin duda, usar un sistema de control.
+
+2- Actualmente Github le pertenece a Microsoft GitHub Inc. Microsoft, debido a que Microsoft compro el software por 7500 millones de dolares.
+
+3- Si
+
