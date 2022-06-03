@@ -1,0 +1,3 @@
+La historia de la informática se remonta en sus inicios al siglo XIX, aunque la primera "computadora" fue creada por Alan Turing durante la Segunda Guerra Mundial, con el objetivo de mejorar las comunicaciones y crear una ventaja importante frente al ejército del Eje.
+
+Más adelante, se creó un modelo de la estructura básica que cualquier máquina debía tener. El mismo se aplica hasta en la actualidad.

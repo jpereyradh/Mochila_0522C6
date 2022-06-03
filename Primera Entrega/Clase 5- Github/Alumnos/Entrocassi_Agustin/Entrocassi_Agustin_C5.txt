@@ -1,0 +1,13 @@
+Validación
+-
+Agus@DESKTOP-7TMP7SD MINGW64 ~/Desktop/Entregables (CTD)/informatica/c5 25 5
+$ ls -R
+.:
+README.md  aguero.txt  gallardo.txt  maradona.txt  messi.txt  pele.txt  riquelme.txt
+
+----
+
+Importante! (3/6/22):
+
+En este trabajo, colaboré con un compañero del que no recuerdo el nombre para hacer la actividad. Nos ayudamos mucho y nos sacamos muchísimas dudas que veníamos teniendo sobre Git y GitHub, aunque ya borramos el repositorio y la información sobre el trabajo que hicimos. 
+Dejo en la validación una copia que hice en una carpeta personal del trabajo de ese día, en donde únicamente llegamos al paso de crear los archivos, pero no modificarlos. 

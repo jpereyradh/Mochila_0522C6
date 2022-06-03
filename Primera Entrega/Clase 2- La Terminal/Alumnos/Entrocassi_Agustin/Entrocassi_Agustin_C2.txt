@@ -1,0 +1,57 @@
+Validación N°1
+- 
+Agus@DESKTOP-7TMP7SD MINGW64 ~/Desktop/Entregables (CTD)/informatica/c2 18 5/DH/repaso_clase1y2
+$ ls -R
+.:
+historia_de_la_contabilidad/  que_haremos_hoy/
+infraestructura/              servidores/
+interfaces_de_usuario/
+
+./historia_de_la_contabilidad:
+repaso.txt
+
+./infraestructura:
+repaso.doc
+
+./interfaces_de_usuario:
+repaso.xls
+
+./que_haremos_hoy:
+repaso.js
+
+./servidores:
+repaso.html
+
+
+
+----
+
+Validación N°2
+-
+Agus@DESKTOP-7TMP7SD MINGW64 ~/Desktop/Entregables (CTD)/informatica/c2 18 5/DH/repaso_clase1y2
+$ ls -R
+.:
+git_bash_y_vscode/           servidores/
+historia_de_la_informatica/  software_y_hardware/
+interfaces_de_usuario/
+
+./git_bash_y_vscode:
+repaso.doc
+
+./historia_de_la_informatica:
+repaso.txt
+
+./interfaces_de_usuario:
+repaso.xls
+
+./servidores:
+repaso.html
+
+./software_y_hardware:
+repaso.js
+
+
+
+----
+
+Validación N°3: El texto de cada archivo puede verse en la carpeta DH.

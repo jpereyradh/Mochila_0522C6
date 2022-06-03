@@ -1,0 +1,80 @@
+
+Validación N°1:
+-
+Agus@DESKTOP-7TMP7SD MINGW64 ~/Desktop/Entregables (CTD)/informatica/c3 20 5/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+Accion/  Comedia/  Infantiles/  Romanticas/  Terror/    
+
+./Peliculas/Accion:
+ Cars.jpg                  'El hexorcista.xls'
+'Diario de una pasion.js'  'Smooth criminal.txt'        
+
+./Peliculas/Comedia:
+ IT.xls         'Mision imposible.png'
+ Madagascar.js  'Orgullo y prejuicio.txt'
+
+./Peliculas/Infantiles:
+'El juego del miedo.xls'  'Rapido y Furioso.pdf'        
+ Intenzamente.txt          Titanic.jpg
+
+./Peliculas/Romanticas:
+ Annabelle.js         Pocahontas.jpg
+'Los vengadores.js'  'la mascara.js'
+
+./Peliculas/Terror:
+'La dama y el bagavundo.png'  'We will rock you.js'     
+'Que paso ayer.pdf'           'Yo antes de ti.xls' 
+
+
+
+----
+
+Validación N°2
+-
+Actividad 9.
+
+-Las carpetas y los archivos del punto 2 y el punto 3 SI se pueden escribir en un solo comando.
+Para crear las carpetas del punto 2, el comando es: "mkdir ./Peliculas/ Infantiles Accion Terror Comedia Romanticas".
+Para crear los archivos del punto 3, el comando es: "touch ./Peliculas/Infantiles/ Intenzamente.txt "El juego del miedo".xls "Rapido y furioso".pdf Titanic.jpg
+
+-Comando de la carpeta Prueba: "$ mkdir ./Peliculas/Romanticas/Prueba"
+
+-Comando de la carpeta Prueba2: "$ mkdir ../Accion/Prueba2"
+
+
+
+----
+
+Validación N°3
+-
+Agus@DESKTOP-7TMP7SD MINGW64 ~/Desktop/Entregables (CTD)/informatica/c3 20 5/DH/Peliculas
+$ ls -R
+.:
+Accion/   Infantiles/  Terror/
+Comedia/  Romanticas/
+
+./Accion:
+'Los vengadores.js'      Prueba2/
+'Mision imposible.png'  'Rapido y Furioso.pdf'      
+
+./Accion/Prueba2:
+
+./Comedia:
+'Que paso ayer.pdf'  'la mascara.js'
+
+./Infantiles:
+ Cars.jpg          'La dama y el vagabundo.png'     
+ IT.xls             Madagascar.js
+ Intensamente.txt   Pocahontas.jpg
+
+./Romanticas:
+'Diario de una pasion.js'   Titanic.jpg
+'Orgullo y prejuicio.txt'  'Yo antes de ti.xls'     
+
+./Terror:
+ Annabelle.js       'El juego del miedo.xls'        
+'El exorcista.xls'
