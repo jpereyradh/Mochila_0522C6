@@ -21,3 +21,5 @@ hermano mayor
 
 marcelo
 ¿Cuál es para cada uno?
+
+En si cualquier procesador sirve para la tarea que desean hacer. Va a depender del resto del hardware.
