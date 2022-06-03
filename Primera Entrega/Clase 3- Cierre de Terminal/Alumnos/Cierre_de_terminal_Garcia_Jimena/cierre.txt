@@ -1,0 +1,32 @@
+● ¿Se pueden crear las carpetas del punto 2 en un solo comando? En caso que la 
+respuesta sea positiva escribir el comando
+
+Sí > Jimena@PC-JIMENA MINGW64 ~/Desktop/Digital House/Introducción a la programación/Mochila 1/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Cierre_de_terminal_Garcia_Jimena/Peliculas (garcia_jimena)
+$ mkdir Infantiles Accion Terror Comedia Romanticas
+
+
+● ¿Se pueden crear los archivos del punto 3 en un solo comando? En caso que la 
+respuesta sea positiva escribir el comando
+
+> Se pueden creer una vez se sale de la carpeta y se ingresa.
+Jimena@PC-JIMENA MINGW64 ~/Desktop/Digital House/Introducción a la programación/Mochila 1/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Cierre_de_terminal_Garcia_Jimena/Peliculas (garcia_jimena)
+$ cd Infantiles
+
+Jimena@PC-JIMENA MINGW64 ~/Desktop/Digital House/Introducción a la programación/Mochila 1/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Cierre_de_terminal_Garcia_Jimena/Peliculas/Infantiles (garcia_jimena)
+$ touch Intenzamente.txt "El juego del miedo.xls" "Rapido y furioso.pdf" Titanic.jpg
+
+
+● Estando ubicados en la carpeta DH crear una carpeta llamada Prueba dentro de 
+la carpeta Romanticas en un solo comando y escribirlo aquí. 
+
+Jimena@PC-JIMENA MINGW64 ~/Desktop/Digital House/Introducción a la programación/Mochila 1/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Cierre_de_terminal_Garcia_Jimena/Peliculas (garcia_jimena)
+$ mkdir Romanticas/Prueba
+
+● Estando ubicados en la carpeta Romanticas crear una carpeta llamada Prueba2
+dentro de la carpeta Accion
+
+Jimena@PC-JIMENA MINGW64 ~/Desktop/Digital House/Introducción a la programación/Mochila 1/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Cierre_de_terminal_Garcia_Jimena/Peliculas (garcia_jimena)
+$ cd Romanticas
+
+Jimena@PC-JIMENA MINGW64 ~/Desktop/Digital House/Introducción a la programación/Mochila 1/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Cierre_de_terminal_Garcia_Jimena/Peliculas/Romanticas (garcia_jimena)
+$ mkdir ../Accion/Prueba2
