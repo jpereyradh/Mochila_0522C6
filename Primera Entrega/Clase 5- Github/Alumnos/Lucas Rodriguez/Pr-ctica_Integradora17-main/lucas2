@@ -1,0 +1,8 @@
+Segundo archivo modificado
+<<<<<<< HEAD
+Soy la persona A modificando el archivo lucas2 al mismo tiempo que la persona B.
+
+=======
+
+Acá soy persona B modificando el archivo de la persona A
+>>>>>>> 0c54bdb4037c51afc45eef2c6fc5b7ec1d303197
