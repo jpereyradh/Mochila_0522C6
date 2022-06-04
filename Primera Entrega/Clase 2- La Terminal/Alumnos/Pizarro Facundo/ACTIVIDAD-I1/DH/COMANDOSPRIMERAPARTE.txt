@@ -1,0 +1,104 @@
+
+Admin@DESKTOP-1H55FQB MINGW64 ~
+$ cd. /desktop
+bash: cd.: command not found
+
+Admin@DESKTOP-1H55FQB MINGW64 ~
+$ cd desktop
+
+Admin@DESKTOP-1H55FQB MINGW64 ~/desktop
+$ cd ./ACTIVIDAD-I1
+
+Admin@DESKTOP-1H55FQB MINGW64 ~/desktop/ACTIVIDAD-I1
+$ mkdir DH
+
+Admin@DESKTOP-1H55FQB MINGW64 ~/desktop/ACTIVIDAD-I1
+$ CD ./DH
+bash: CD: command not found
+
+Admin@DESKTOP-1H55FQB MINGW64 ~/desktop/ACTIVIDAD-I1
+$ cd ./DH
+
+Admin@DESKTOP-1H55FQB MINGW64 ~/desktop/ACTIVIDAD-I1/DH
+$ mkdir repaso_clase1y2
+
+Admin@DESKTOP-1H55FQB MINGW64 ~/desktop/ACTIVIDAD-I1/DH
+$ cd ./repaso_clase1y2
+
+Admin@DESKTOP-1H55FQB MINGW64 ~/desktop/ACTIVIDAD-I1/DH/repaso_clase1y2
+$ mkdir "historia_de_la_contabilidad" "que_haremos_hoy" "servidores" "interfaces_de_usuario" "infraestructura"
+
+Admin@DESKTOP-1H55FQB MINGW64 ~/desktop/ACTIVIDAD-I1/DH/repaso_clase1y2
+$ cd ./infraestructura
+
+Admin@DESKTOP-1H55FQB MINGW64 ~/desktop/ACTIVIDAD-I1/DH/repaso_clase1y2/infraestructura
+$ touch repaso.xls
+
+Admin@DESKTOP-1H55FQB MINGW64 ~/desktop/ACTIVIDAD-I1/DH/repaso_clase1y2/infraestructura
+$ cd ../
+
+Admin@DESKTOP-1H55FQB MINGW64 ~/desktop/ACTIVIDAD-I1/DH/repaso_clase1y2
+$ cd ./interfaces_de_usuario
+
+Admin@DESKTOP-1H55FQB MINGW64 ~/desktop/ACTIVIDAD-I1/DH/repaso_clase1y2/interfaces_de_usuario
+$ touch repaso.txt
+
+Admin@DESKTOP-1H55FQB MINGW64 ~/desktop/ACTIVIDAD-I1/DH/repaso_clase1y2/interfaces_de_usuario
+$ cd ../
+
+Admin@DESKTOP-1H55FQB MINGW64 ~/desktop/ACTIVIDAD-I1/DH/repaso_clase1y2
+$ cd ./servidores
+
+Admin@DESKTOP-1H55FQB MINGW64 ~/desktop/ACTIVIDAD-I1/DH/repaso_clase1y2/servidores
+$ touch repaso.jpg
+
+Admin@DESKTOP-1H55FQB MINGW64 ~/desktop/ACTIVIDAD-I1/DH/repaso_clase1y2/servidores
+$ cd ../
+
+Admin@DESKTOP-1H55FQB MINGW64 ~/desktop/ACTIVIDAD-I1/DH/repaso_clase1y2
+$ cd ./que_haremos_hoy
+
+Admin@DESKTOP-1H55FQB MINGW64 ~/desktop/ACTIVIDAD-I1/DH/repaso_clase1y2/que_haremos_hoy
+$ touch repaso.png
+
+Admin@DESKTOP-1H55FQB MINGW64 ~/desktop/ACTIVIDAD-I1/DH/repaso_clase1y2/que_haremos_hoy
+$ cd ../
+
+Admin@DESKTOP-1H55FQB MINGW64 ~/desktop/ACTIVIDAD-I1/DH/repaso_clase1y2
+$ cd ./historia_de_la_contabilidad
+
+Admin@DESKTOP-1H55FQB MINGW64 ~/desktop/ACTIVIDAD-I1/DH/repaso_clase1y2/historia_de_la_contabilidad
+$ touch repaso.pdf
+
+Admin@DESKTOP-1H55FQB MINGW64 ~/desktop/ACTIVIDAD-I1/DH/repaso_clase1y2/historia_de_la_contabilidad
+$ cd ../
+
+Admin@DESKTOP-1H55FQB MINGW64 ~/desktop/ACTIVIDAD-I1/DH/repaso_clase1y2
+$ cd ../
+
+Admin@DESKTOP-1H55FQB MINGW64 ~/desktop/ACTIVIDAD-I1/DH
+$ ls -R
+.:
+repaso_clase1y2/
+
+./repaso_clase1y2:
+historia_de_la_contabilidad/  interfaces_de_usuario/  servidores/
+infraestructura/              que_haremos_hoy/
+
+./repaso_clase1y2/historia_de_la_contabilidad:
+repaso.pdf
+
+./repaso_clase1y2/infraestructura:
+repaso.xls
+
+./repaso_clase1y2/interfaces_de_usuario:
+repaso.txt
+
+./repaso_clase1y2/que_haremos_hoy:
+repaso.png
+
+./repaso_clase1y2/servidores:
+repaso.jpg
+
+Admin@DESKTOP-1H55FQB MINGW64 ~/desktop/ACTIVIDAD-I1/DH
+$

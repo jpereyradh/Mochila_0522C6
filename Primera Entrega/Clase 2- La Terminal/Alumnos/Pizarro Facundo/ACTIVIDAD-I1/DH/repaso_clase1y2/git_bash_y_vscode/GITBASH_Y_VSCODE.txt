@@ -1,0 +1,7 @@
+visual studio code es un entorno de desarrollo integrado
+desarrollado por la empresa microsoft,
+es un conjunto de herramientas diseñadas para facilitar
+la creacion y desarrollo de programas o aplicaciones
+GIT BASH
+es una aplicacion de terminal que se utiliza
+con un sistema operativo mediante comandos escritos
