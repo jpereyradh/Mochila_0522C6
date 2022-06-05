@@ -1,0 +1,6 @@
+4.a- Linus Torvalds porque ue creado en 2005 porque la relacion entre la
+comunidad que desarrollaba el nucleo de Linux y la compañia que desarrollaba BitKeeper se vino
+4.b- Le pertenece a Miecrosoft y porque ayuda
+a los desarrolladores manteniendo la plataforma abierta, aceleracion de los proyectos corporativos y 
+la integracion de servicios de la nube de la compañia.
+4.c- Si, existe la interfaz gráfica de usuario de git (Git GUI), con la que se puede trabajar sin una terminal.
