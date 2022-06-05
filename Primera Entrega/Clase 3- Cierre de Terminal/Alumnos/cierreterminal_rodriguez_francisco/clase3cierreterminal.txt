@@ -1,0 +1,22 @@
+Una vez realizada la actividad deberemos corroborar el resultado obtenido,
+ubicándonos en la carpeta peliculas y utilizando el comando: ls -R
+9) Si el resultado coincide con la plantilla guía de la diapositiva anterior resolver las
+siguientes preguntas
+●A ¿Se pueden crear las carpetas del punto 2 en un solo comando? En caso que la
+respuesta sea positiva escribir el comando
+●B ¿Se pueden crear los archivos del punto 3 en un solo comando? En caso que la
+respuesta sea positiva escribir el comando
+●C Estando ubicados en la carpeta DH crear una carpeta llamada Prueba dentro de
+la carpeta Romanticas en un solo comando y escribirlo aquí.
+●D Estando ubicados en la carpeta Romanticas crear una carpeta llamada Prueba2
+dentro de la carpeta Accion
+------------------------------------------------
+R E S P U E S T A S
+------------------------------------------------
+9-A) mkdir accion/ comedia/ infantiles/ romanticas/ terror/
+9-B) touch Intenzamente.txt "El juego del miedo.xls" "Rapido y furioso.pdf" Titanic.jpg
+9-C)$ cd  C:/DHC6/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/cierreterminal_rodriguez_francisco/DH
+    $ mkdir C:/DHC6/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/cierreterminal_rodriguez_francisco/DH/peliculas/romanticas/prueba
+9-D) $ cd C:\DHC6\Mochila_0522C6\Primera Entrega\Clase 3- Cierre de Terminal\Alumnos\cierreterminal_rodriguez_francisco\DH\peliculas\romanticas
+     $ mkdir C:/DHC6/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/cierreterminal_rodriguez_francisco/DH/peliculas/accion/Prueba2
+     
