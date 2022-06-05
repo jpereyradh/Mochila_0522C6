@@ -1,0 +1,28 @@
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Documents/Curso de Developer/Materia Introducción a la informatica/clase 2/repaso_clase1y2
+$ mv historia_de_la_contabilidad/ historia_de_la_informatica/
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Documents/Curso de Developer/Materia Introducción a la informatica/clase 2/repaso_clase1y2
+$ mv que_haremos_hoy/ software_y_hardware
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Documents/Curso de Developer/Materia Introducción a la informatica/clase 2/repaso_clase1y2
+$ mv infraestructura/ git_bash_y_vscode
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Documents/Curso de Developer/Materia Introducción a la informatica/clase 2/repaso_clase1y2
+$ cd git_bash_y_vscode/repaso.docs 
+bash: cd: git_bash_y_vscode/repaso.docs: Not a directory
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Documents/Curso de Developer/Materia Introducción a la informatica/clase 2/repaso_clase1y2
+$ nano git_bash_y_vscode/repaso.docs 
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Documents/Curso de Developer/Materia Introducción a la informatica/clase 2/repaso_clase1y2
+$ nano historia_de_la_informatica/repaso.txt
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Documents/Curso de Developer/Materia Introducción a la informatica/clase 2/repaso_clase1y2
+$ nano interfaces_de_usuario/repaso.docx
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Documents/Curso de Developer/Materia Introducción a la informatica/clase 2/repaso_clase1y2
+$ nano servidores/repaso.xls
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Documents/Curso de Developer/Materia Introducción a la informatica/clase 2/repaso_clase1y2
+$ nano software_y_hardware/repaso.pdf

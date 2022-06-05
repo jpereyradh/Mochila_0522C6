@@ -1,0 +1,9 @@
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Documents/Curso de Developer/Materia Introducción a la informatica/Mochila_0522C6/Primera Entrega/Clase 6- Cierre Git y Github (SantiagoPerezDeLasCasas)
+$ mkdir Git_y_Github_SantiagoPerezDeLasCasas
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Documents/Curso de Developer/Materia Introducción a la informatica/Mochila_0522C6/Primera Entrega/Clase 6- Cierre Git y Github (SantiagoPerezDeLasCasas)
+$ mv ../../../clase\ 6/Clase\ 6/Rtas1_Santi.docx ./Git_y_Github_SantiagoPerezDeLasCasas/
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Documents/Curso de Developer/Materia Introducción a la informatica/Mochila_0522C6/Primera Entrega/Clase 6- Cierre Git y Github (SantiagoPerezDeLasCasas)
+$ mv Git_y_Github_SantiagoPerezDeLasCasas/ Alumnos/

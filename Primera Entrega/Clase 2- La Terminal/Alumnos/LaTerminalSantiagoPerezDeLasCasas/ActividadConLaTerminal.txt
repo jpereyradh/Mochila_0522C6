@@ -1,0 +1,46 @@
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Documents/Curso de Developer/Materia Introducción a la informatica/clase 2
+$ mkdir repaso_clase1y2
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Documents/Curso de Developer/Materia Introducción a la informatica/clase 2
+$ cd repaso_clase1y2/
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Documents/Curso de Developer/Materia Introducción a la informatica/clase 2/repaso_clase1y2
+$ mkdir historia_de_la_contabilidad que_haremos_hoy servidores interfaces_de_usuario infraestructura
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Documents/Curso de Developer/Materia Introducción a la informatica/clase 2/repaso_clase1y2
+$ ls
+historia_de_la_contabilidad/  infraestructura/  interfaces_de_usuario/  que_haremos_hoy/  servidores/
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Documents/Curso de Developer/Materia Introducción a la informatica/clase 2/repaso_clase1y2
+$ touch historia_de_la_contabilidad/repaso.txt servidores/repaso.xls interfaces_de_usuario/repaso.docx que_haremos_hoy/repaso.pdf infraestructura/repaso.docs
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Documents/Curso de Developer/Materia Introducción a la informatica/clase 2/repaso_clase1y2
+$ cd ../
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Documents/Curso de Developer/Materia Introducción a la informatica/clase 2
+$ ls -R
+.:
+'Actividad con Terminal.pptx.pdf'
+'GRUPO 2 MUNOZ, VERDI, PEREZ DE LAS CASAS, DE LA PENA, CONESA-20220523T022035Z-001.zip'
+'Primer encuentro con La Terminal.txt'
+'Tarea clase 2 hacerla devuelta cuando haya q entregarla...txt'
+ repaso_clase1y2/
+
+./repaso_clase1y2:
+historia_de_la_contabilidad/  infraestructura/  interfaces_de_usuario/  que_haremos_hoy/  servidores/
+
+./repaso_clase1y2/historia_de_la_contabilidad:
+repaso.txt
+
+./repaso_clase1y2/infraestructura:
+repaso.docs
+
+./repaso_clase1y2/interfaces_de_usuario:
+repaso.docx
+
+./repaso_clase1y2/que_haremos_hoy:
+repaso.pdf
+
+./repaso_clase1y2/servidores:
+repaso.xls
