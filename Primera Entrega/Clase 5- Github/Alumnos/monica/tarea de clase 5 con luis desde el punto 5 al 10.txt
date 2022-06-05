@@ -1,0 +1,440 @@
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop (main)
+$ cd practica_integradora
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ ls
+README.md  charmander.txt  picachu.txt  venosaur.txt
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git push origin main
+info: please complete authentication in your browser...
+To https://github.com/luismunozse/practica_integradora.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/luismunozse/practica_inte
+gradora.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git push origin main
+To https://github.com/luismunozse/practica_integradora.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/luismunozse/practica_inte
+gradora.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/Gervacio Lopez/Desktop/practic
+a_integradora/.git/
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git push origin main
+To https://github.com/luismunozse/practica_integradora.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/luismunozse/practica_inte
+gradora.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git add .
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git commit -m "tercer commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Gervacio Lopez@LAPTOP-0MTCA7JS.
+(none)')
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git config user.name "monilopez05"
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git config user.email "marzo.moni12@gmail.com"
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git push origin main
+To https://github.com/luismunozse/practica_integradora.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/luismunozse/practica_inte
+gradora.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git remote add origin https://github.com/luismunozse/practica_integradora.git
+error: remote origin already exists.
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git pull origin main
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 5 (delta 0), reused 5 (delta 0), pack-reused 0
+Unpacking objects: 100% (5/5), 414 bytes | 8.00 KiB/s, done.
+From https://github.com/luismunozse/practica_integradora
+ * branch            main       -> FETCH_HEAD
+   022d673..6b5d0b6  main       -> origin/main
+Updating 022d673..6b5d0b6
+Fast-forward
+ pidgey.txt  | 1 +
+ raichu.txt  | 1 +
+ squirte.txt | 1 +
+ 3 files changed, 3 insertions(+)
+ create mode 100644 pidgey.txt
+ create mode 100644 raichu.txt
+ create mode 100644 squirte.txt
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git push origin main
+Everything up-to-date
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git remote add origin https://github.com/luismunozse/practica_integradora.git
+error: remote origin already exists.
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git push picachu.txt main
+fatal: invalid gitfile format: picachu.txt
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git add .
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git checkout practica_integradora
+error: pathspec 'practica_integradora' did not match any file(s) known to git
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git checkout
+A       charmander.txt
+A       picachu.txt
+A       venosaur.txt
+Your branch is up to date with 'origin/main'.
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git commit -m "tercer commit"
+[main 1d2841b] tercer commit
+ 3 files changed, 3 insertions(+)
+ create mode 100644 charmander.txt
+ create mode 100644 picachu.txt
+ create mode 100644 venosaur.txt
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git push origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (5/5), 529 bytes | 529.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/luismunozse/practica_integradora.git
+   6b5d0b6..1d2841b  main -> main
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ nano picachu.txt
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git add .
+warning: LF will be replaced by CRLF in picachu.txt.
+The file will have its original line endings in your working directory
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git commit -m "actualizando picachu.txt"
+[main bb91d83] actualizando picachu.txt
+ 1 file changed, 1 insertion(+)
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git checkout
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git push origin main
+To https://github.com/luismunozse/practica_integradora.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/luismunozse/practica_integradora.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git commit -m "actualizando picachu.txt"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git push origin main
+To https://github.com/luismunozse/practica_integradora.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/luismunozse/practica_integradora.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git checkout
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git commit -m "actualizando picachu.txt"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git push origin main
+To https://github.com/luismunozse/practica_integradora.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/luismunozse/practica_integradora.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git add .
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git checkout
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git checkout practica_integradora
+error: pathspec 'practica_integradora' did not match any file(s) known to git
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git checkout
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git commit -m "actualizando picachu.txt"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git push origin main
+To https://github.com/luismunozse/practica_integradora.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/luismunozse/practica_integradora.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git pull origin main
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 3 (delta 1), pack-reused 0
+Unpacking objects: 100% (3/3), 287 bytes | 11.00 KiB/s, done.
+From https://github.com/luismunozse/practica_integradora
+ * branch            main       -> FETCH_HEAD
+   1d2841b..e973bda  main       -> origin/main
+Merge made by the 'ort' strategy.
+ raichu.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git checkout
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git commit -m "actualizando picachu.txt"
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git push origin main
+Enumerating objects: 9, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 617 bytes | 617.00 KiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/luismunozse/practica_integradora.git
+   e973bda..76dc8b6  main -> main
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ nano picachu.txt
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git add .
+warning: LF will be replaced by CRLF in picachu.txt.
+The file will have its original line endings in your working directory
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git commit -m "Trabajando en el mismo archivo"
+[main 9e71ff0] Trabajando en el mismo archivo
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git pull origin main
+From https://github.com/luismunozse/practica_integradora
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git checkout
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git commit -m "Trabajando en el mismo archivo"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 339 bytes | 339.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/luismunozse/practica_integradora.git
+   76dc8b6..9e71ff0  main -> main
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git branch nombre_rama2
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git checkout name_rama2
+error: pathspec 'name_rama2' did not match any file(s) known to git
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (main)
+$ git checkout nombre_rama2
+Switched to branch 'nombre_rama2'
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (nombre_rama2)
+$ git branch rama_2
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (nombre_rama2)
+$ git checkout rama2
+error: pathspec 'rama2' did not match any file(s) known to git
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (nombre_rama2)
+$ git checkout rama_2
+Switched to branch 'rama_2'
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (rama_2)
+$ touch sa.txt omi.txt abi.txt
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (rama_2)
+$ git add .
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (rama_2)
+$ git commit -m "rama_2"
+[rama_2 7ec7fb1] rama_2
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 abi.txt
+ create mode 100644 omi.txt
+ create mode 100644 sa.txt
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (rama_2)
+$ git push origin rama_2
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 245 bytes | 245.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'rama_2' on GitHub by visiting:
+remote:      https://github.com/luismunozse/practica_integradora/pull/new/rama_2
+remote:
+To https://github.com/luismunozse/practica_integradora.git
+ * [new branch]      rama_2 -> rama_2
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (rama_2)
+$ git pull origin main
+From https://github.com/luismunozse/practica_integradora
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (rama_2)
+$ git pull origin rama_1
+remote: Enumerating objects: 8, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 3), reused 5 (delta 2), pack-reused 0
+Unpacking objects: 100% (6/6), 659 bytes | 8.00 KiB/s, done.
+From https://github.com/luismunozse/practica_integradora
+ * branch            rama_1     -> FETCH_HEAD
+ * [new branch]      rama_1     -> origin/rama_1
+Auto-merging picachu.txt
+CONFLICT (content): Merge conflict in picachu.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+Gervacio Lopez@LAPTOP-0MTCA7JS MINGW64 ~/Desktop/practica_integradora (rama_2|MERGING)
+$
