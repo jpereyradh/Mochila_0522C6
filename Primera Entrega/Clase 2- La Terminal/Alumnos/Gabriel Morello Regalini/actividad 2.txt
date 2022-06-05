@@ -1,0 +1,129 @@
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/material de dh/introduccion/actividad 2
+$  mkdir repaso_clase1y2
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/material de 
+dh/introduccion/actividad 2
+$ cd repaso_clase1y2/historia_de_la_contabilidad que_haremos_hoy
+ servidores interfaces_de_usuario indraestructura
+bash: cd: too many arguments
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/material de 
+dh/introduccion/actividad 2
+$ mkdir repaso_clase1y2/historia_de_la_contabilidad que_haremos_
+hoy servidores interfaces_de_usuario indraestructura
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/material de 
+dh/introduccion/actividad 2
+$ cv repaso_clase1y2/historia_de_la_contabilidad que_haremos_hoy
+ servidores interfaces_de_usuario indraestructura
+bash: cv: command not found
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/material de 
+dh/introduccion/actividad 2/repaso_clase1y2/infraestructura     
+$ mkdir DH
+mkdir: cannot create directory ‘DH’: No such file or directory
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/material de 
+dh/introduccion/actividad 2/repaso_clase1y2/infraestructura     
+$
+
+ Contenido de la sesión restaurado desde 5/6/2022 en 2:00:12 
+
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/material de 
+dh/introduccion/actividad 2
+$ cd ../
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/material de 
+dh/introduccion
+$ cd ../
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/material de 
+dh
+$ cd ../
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio
+$ cd material\ de\ dh/
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/material de 
+dh
+$ cd introduccion/
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/material de 
+dh/introduccion
+$ cd actividad\ 2/
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/material de 
+dh/introduccion/actividad 2
+$ mkdir DH
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/material de 
+dh/introduccion/actividad 2
+$ mkdir DH/repaso_clase1y2
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/material de 
+dh/introduccion/actividad 2
+$ cd DH/
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/material de 
+dh/introduccion/actividad 2/DH
+$ cd repaso_clase1y2/
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/material de 
+dh/introduccion/actividad 2/DH/repaso_clase1y2
+$ mkdir historia_de_lacontabilidad que_haremos_hoy servidores interfaces_de_usuario infraestructura
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/material de 
+dh/introduccion/actividad 2/DH/repaso_clase1y2
+$ touch historia_de_lacontabilidad/repaso.txt
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/material de 
+dh/introduccion/actividad 2/DH/repaso_clase1y2
+$ touch servidores/repaso.xlsx
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/material de 
+dh/introduccion/actividad 2/DH/repaso_clase1y2
+$ touch interfaces_de_usuario/repaso.pdf
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/material de 
+dh/introduccion/actividad 2/DH/repaso_clase1y2
+$ touch que_haremos_hoy/repaso.png
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/material de 
+dh/introduccion/actividad 2/DH/repaso_clase1y2
+$ touch infraestructura/repaso
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/material de 
+dh/introduccion/actividad 2/DH/repaso_clase1y2
+$ ls -R
+.:
+historia_de_lacontabilidad/  que_haremos_hoy/
+infraestructura/             servidores/
+interfaces_de_usuario/
+
+./historia_de_lacontabilidad:
+repaso.txt
+
+./infraestructura:
+repaso
+
+./interfaces_de_usuario:
+repaso.pdf
+
+./que_haremos_hoy:
+repaso.png
+
+./servidores:
+repaso.xlsx
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/material de 
+dh/introduccion/actividad 2/DH/repaso_clase1y2
+$ mv historia_de_lacontabilidad/ historia_de_la_informatica     
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/material de 
+dh/introduccion/actividad 2/DH/repaso_clase1y2
+$ mv que_haremos_hoy/ software_y_hardware/
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/material de 
+dh/introduccion/actividad 2/DH/repaso_clase1y2
+$ mv infraestructura/ git_bash_y_vscode/
