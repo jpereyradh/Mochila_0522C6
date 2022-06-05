@@ -1,0 +1,58 @@
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/DH/Peliculas
+$ mv ./Terror/"La dama y el bagavundo.png" ./Accion/Cars.jpg ./Romanticas/Pocahontas.jpg ./Comedia/Madagaskar.js ./Infantiles
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/DH/Peliculas
+$ mv ./Infantiles/"El juego del miedo.xls" ./Accion/"El hexorscista.xls" ./Romanticas/Annabelle.js ./Terror
+mv: cannot stat './Accion/El hexorscista.xls': No such file or directory
+$ mv ./Infantiles/Titanic.jpg ./Accion/"Diario de una pasion.js" ./Comedia/"Orgullo y prejmv: cannot stat './Comedia/IT': No such file or directory
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/DH/Peliculas
+$ mv ./Comedia/IT.xls ./Terror
+                                                                                          uicio.txt" ./Terror/"Yo antes de ti.xls" ./Romanticas
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/DH/Peliculas
+$ mv ./Romanticas/"La mascara.js" ./Terror/"Que paso ayer.pdf" ./Comedia
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/DH/Peliculas
+$ cd ../
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/DH                                                                                                                                                                                        
+$ mv ./Peliculas/Accion/"Rapido y furioso.pdf" ./Peliculas/Accion/"Rapidos y furiosos.pdf"
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/DH
+$ mv ./Peliculas/Infantiles/Intenzamente.txt ./Peliculas/Infantiles/Intensamente.txt
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/DH
+$ mv ./Peliculas/Infantiles/"La dama y el bagavundo.png"  ./Peliculas/Infantiles/"La dama y el vagabundo.png"
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/DH
+$ mv ./Peliculas/Infantiles/Madagaskar.js  ./Peliculas/Infantiles/Madagascar.js
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/DH
+$ rm ./Peliculas/Accion/"Smooth criminal.txt" ./Peliculas/Terror/"We will rock you.js"
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/DH
+$ mkdir ./Peliculas/Accion/Prueba2/noBorrar.js
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/DH
+$ rmdir ./Peliculas/Accion/Prueba2/noBorrar.js
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/DH
+$ touch ./Peliculas/Accion/Prueba2/noBorrar.js                                                                                                                                                                                   
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/DH
+$ mv ./Peliculas/Accion/Prueba2/noBorrar.js ./Peliculas/Romanticas/Prueba
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/DH
+$ touch camadax.txt
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/DH
+$ cd ./Peliculas
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/DH/Peliculas
+$ mv ./Terror/IT.xls ./Infantiles
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/DH/Peliculas
+$ rm ../camadax.txt
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/DH/Peliculas
+$ rm -r ./Romanticas/Prueba

@@ -1,0 +1,246 @@
+
+User@DESKTOP-1P6IV88 MINGW64 ~
+$ git clone https://github.com/Tomasm1000/Repositorio-CLASE-5.git
+Cloning into 'Repositorio-CLASE-5'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+User@DESKTOP-1P6IV88 MINGW64 ~
+$ cd ./user/Desktop
+bash: cd: ./user/Desktop: No such file or directory
+
+User@DESKTOP-1P6IV88 MINGW64 ~
+$ cd Desk*
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop
+$ git clone https://github.com/Tomasm1000/Repositorio-CLASE-5.git
+Cloning into 'Repositorio-CLASE-5'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/Repositorio-CLASE-5 (main)
+$ cd ./CLASE*
+bash: cd: ./CLASE*: No such file or directory
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/Repositorio-CLASE-5 (main)
+$
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/Repositorio-CLASE-5 (main)
+$ nano diseños.css
+
+
+Use "fg" to return to nano.
+
+[1]+  Stopped                 nano diseños.css
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/Repositorio-CLASE-5 (main)
+$ nano movs.js
+
+
+Use "fg" to return to nano.
+
+[2]+  Stopped                 nano movs.js
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/Repositorio-CLASE-5 (main)
+$ ls
+README.md  diseños.css  index.html  movs.js
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/Repositorio-CLASE-5 (main)
+$ git add .
+warning: LF will be replaced by CRLF in diseños.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in index.html.
+The file will have its original line endings in your working directory
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/Repositorio-CLASE-5 (main)
+$ git commit -m "cree mis 3 archivos"
+[main 79abcdd] cree mis 3 archivos
+ 3 files changed, 83 insertions(+)
+ create mode 100644 "dise\303\261os.css"
+ create mode 100644 index.html
+ create mode 100644 movs.js
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/Repositorio-CLASE-5 (main)
+$ git push -u origin main
+To https://github.com/Tomasm1000/Repositorio-CLASE-5.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/Tomasm1000/Repositorio-CLASE-5.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/Repositorio-CLASE-5 (main)
+$ git push --help
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/Repositorio-CLASE-5 (main)
+$ git pull
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 5 (delta 0), reused 5 (delta 0), pack-reused 0
+Unpacking objects: 100% (5/5), 451 bytes | 50.00 KiB/s, done.
+From https://github.com/Tomasm1000/Repositorio-CLASE-5
+   1063ef8..4064764  main       -> origin/main
+Merge made by the 'ort' strategy.
+ comidas.txt | 1 +
+ libros.txt  | 1 +
+ pelis.txt   | 1 +
+ 3 files changed, 3 insertions(+)
+ create mode 100644 comidas.txt
+ create mode 100644 libros.txt
+ create mode 100644 pelis.txt
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/Repositorio-CLASE-5 (main)
+$ git push -u origin main
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 1.87 KiB | 1.87 MiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/Tomasm1000/Repositorio-CLASE-5.git
+   4064764..766ebff  main -> main
+branch 'main' set up to track 'origin/main'.
+
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/Repositorio-CLASE-5 (main)
+$ ls
+README.md  comidas.txt  diseños.css  index.html  libros.txt  movs.js  pelis.txt
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/Repositorio-CLASE-5 (main)
+$ git pull
+Already up to date.
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/Repositorio-CLASE-5 (main)
+$ nano pelis.txt
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/Repositorio-CLASE-5 (main)
+$ git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 3 (delta 1), pack-reused 0
+Unpacking objects: 100% (3/3), 323 bytes | 64.00 KiB/s, done.
+From https://github.com/Tomasm1000/Repositorio-CLASE-5
+   766ebff..6482926  main       -> origin/main
+Updating 766ebff..6482926
+Fast-forward
+ libros.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/Repositorio-CLASE-5 (main)
+$ git add pelis.txt
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/Repositorio-CLASE-5 (main)
+$ git commit -m "modifique el archivo pelis"
+[main 845911a] modifique el archivo pelis
+ 1 file changed, 1 insertion(+)
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/Repositorio-CLASE-5 (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 338 bytes | 338.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Tomasm1000/Repositorio-CLASE-5.git
+   6482926..845911a  main -> main
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/Repositorio-CLASE-5 (main)
+$ git add index.html
+warning: LF will be replaced by CRLF in index.html.
+The file will have its original line endings in your working directory
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/Repositorio-CLASE-5 (main)
+$ git commit -m "Agregué imagen y titulo de pestaña"
+[main 31ce6e5] Agregué imagen y titulo de pestaña
+ 1 file changed, 2 insertions(+), 2 deletions(-) 
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/Repositorio-CLASE-5 (main)
+$ git push origin main
+To https://github.com/Tomasm1000/Repositorio-CLASE-5.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/Tomasm1000/Repositorio-CLASE-5.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/Repositorio-CLASE-5 (main)
+$ git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (1/1), done.
+remote: Total 3 (delta 2), reused 3 (delta 2), pack-reused 0
+Unpacking objects: 100% (3/3), 318 bytes | 63.00 KiB/s, done.
+From https://github.com/Tomasm1000/Repositorio-CLASE-5
+   845911a..ebb07a6  main       -> origin/main
+Auto-merging index.html
+Merge made by the 'ort' strategy.
+main)
+$ git push origin main
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.                       main)
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 792 bytes | 792.00 KiB/s, done.
+
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0        
+remote: Resolving deltas: 100% (4/4), completed with 2 local objects.
+To https://github.com/Tomasm1000/Repositorio-CLASE-5.git     objects.
+   ebb07a6..d3ed7bc  main -> main
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/Repositorio-CLASE-5 (main)                                                       main)
+$ git brach "rama de madera"
+git: 'brach' is not a git command. See 'git --help'.
+
+The most similar command is
+        branch
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/Repositorio-CLASE-5 (main)
+$ git branch "rama de madera"
+fatal: 'rama de madera' is not a valid branch name
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/Repositorio-CLASE-5 (main)
+$ git branch "rama_de_madera"
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/Repositorio-CLASE-5 (main)
+$ git checkout rama_de_madera
+Switched to branch 'rama_de_madera'
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/Repositorio-CLASE-5 (rama_de_madera)
+$ touch archivos_de_ramas_raras.txt ramas_redondas.js 
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/Repositorio-CLASE-5 (rama_de_madera)
+$ git add .
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/Repositorio-CLASE-5 (rama_de_madera)
+$ git commit -m "cree,archivos en la rama de madera"
+[rama_de_madera e6325ea] cree,archivos en la rama de madera
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 archivos_de_ramas_raras.txt
+ create mode 100644 ramas_redondas.js
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/Repositorio-CLASE-5 (rama_de_madera)
+$ git push origin rama_de_madera
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 297 bytes | 297.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote: 
+remote: Create a pull request for 'rama_de_madera' on GitHub by visiting:
+remote:      https://github.com/Tomasm1000/Repositorio-CLASE-5/pull/new/rama_de_madera    
+remote:
+To https://github.com/Tomasm1000/Repositorio-CLASE-5.git
+ * [new branch]      rama_de_madera -> rama_de_madera

@@ -1,0 +1,241 @@
+Pregunta 9)a)
+Rta:  mkdir Infantiles Accion Terror Comedia Romanticas
+b) touch Intenzamente.txt "El juego del miedo.xls" "Rapido y furioso.pdf" Titanic.jpg
+c)mkdir ./Peliculas/Romanticas/Prueba
+d)cd ./Peliculas/Romanticas
+  mkdir ../Accion/Prueba2
+User@DESKTOP-1P6IV88 MINGW64 ~
+$ pwd
+/c/Users/User
+
+User@DESKTOP-1P6IV88 MINGW64 ~
+$ cd desktop
+
+User@DESKTOP-1P6IV88 MINGW64 ~/desktop
+$ mkdir DH
+
+User@DESKTOP-1P6IV88 MINGW64 ~/desktop
+$ cd DH
+
+User@DESKTOP-1P6IV88 MINGW64 ~/desktop/DH
+$ mkdir Peliculas
+
+User@DESKTOP-1P6IV88 MINGW64 ~/desktop/DH
+$ cd Peliculas
+
+User@DESKTOP-1P6IV88 MINGW64 ~/desktop/DH/Peliculas
+$ mkdir Infantiles Accion Terror Comedia Romanticas
+
+User@DESKTOP-1P6IV88 MINGW64 ~/desktop/DH/Peliculas
+$ cd Infantiles
+
+User@DESKTOP-1P6IV88 MINGW64 ~/desktop/DH/Peliculas/Infantiles
+$ touch Intenzamente.txt "El juego del miedo.xls" "Rapido y furioso.pdf" Titanic.jpg
+
+User@DESKTOP-1P6IV88 MINGW64 ~/desktop/DH/Peliculas/Infantiles
+$ cd ../Accion
+
+User@DESKTOP-1P6IV88 MINGW64 ~/desktop/DH/Peliculas/Accion
+$ touch "Smooth criminal.txt" "Diario de una pasion.js" "El hexorcista.xls" Cars.jpg
+
+User@DESKTOP-1P6IV88 MINGW64 ~/desktop/DH/Peliculas/Accion
+$ cd ../Terror
+
+User@DESKTOP-1P6IV88 MINGW64 ~/desktop/DH/Peliculas/Terror
+$ touch "La dama y el bagavundo.png" "Yo antes de ti.xls" "Que paso ayer.pdf" "We will rock you.js"
+
+User@DESKTOP-1P6IV88 MINGW64 ~/desktop/DH/Peliculas/Terror
+$ cd ../Comedia
+
+User@DESKTOP-1P6IV88 MINGW64 ~/desktop/DH/Peliculas/Comedia
+$ touch Madagaskar.js "Orgullo y prejuicio.txt" IT.xls "Mision imposible.png"
+
+User@DESKTOP-1P6IV88 MINGW64 ~/desktop/DH/Peliculas/Comedia
+$ cd ../Romantica
+bash: cd: ../Romantica: No such file or directory
+
+User@DESKTOP-1P6IV88 MINGW64 ~/desktop/DH/Peliculas/Comedia
+$ ../Romanticas
+bash: ../Romanticas: Is a directory
+
+User@DESKTOP-1P6IV88 MINGW64 ~/desktop/DH/Peliculas/Comedia
+$ touch Pocahontas.jpg Annabelle.js "Los vengadores.js" "La mascara.js"
+
+User@DESKTOP-1P6IV88 MINGW64 ~/desktop/DH/Peliculas/Comedia
+$ cd ../
+
+User@DESKTOP-1P6IV88 MINGW64 ~/desktop/DH/Peliculas
+$ ls -R
+.:
+Accion/  Comedia/  Infantiles/  Romanticas/  Terror/
+
+./Accion:
+ Cars.jpg                  'El hexorcista.xls'
+'Diario de una pasion.js'  'Smooth criminal.txt'
+
+./Comedia:
+ Annabelle.js    'Los vengadores.js'     'Orgullo y prejuicio.txt'
+ IT.xls           Madagaskar.js           Pocahontas.jpg
+'La mascara.js'  'Mision imposible.png'
+
+./Infantiles:
+'El juego del miedo.xls'  'Rapido y furioso.pdf'
+ Intenzamente.txt          Titanic.jpg
+
+./Romanticas:
+
+./Terror:
+'La dama y el bagavundo.png'  'We will rock you.js'
+'Que paso ayer.pdf'           'Yo antes de ti.xls'
+
+User@DESKTOP-1P6IV88 MINGW64 ~/desktop/DH/Peliculas
+$ cd comedias
+bash: cd: comedias: No such file or directory
+
+User@DESKTOP-1P6IV88 MINGW64 ~/desktop/DH/Peliculas
+$ cd Comedia
+
+User@DESKTOP-1P6IV88 MINGW64 ~/desktop/DH/Peliculas/Comedia
+$ rm Pocahontas.jpg Annabelle.js "Los vengadores.js" "La mascara.js"
+
+User@DESKTOP-1P6IV88 MINGW64 ~/desktop/DH/Peliculas/Comedia
+$ cd ../Romanticas
+
+User@DESKTOP-1P6IV88 MINGW64 ~/desktop/DH/Peliculas/Romanticas
+$ touch Pocahontas.jpg Annabelle.js "Los vengadores.js" "La mascara.js"
+
+User@DESKTOP-1P6IV88 MINGW64 ~/desktop/DH/Peliculas/Romanticas
+$ cd ../
+
+User@DESKTOP-1P6IV88 MINGW64 ~/desktop/DH/Peliculas
+$ ls -R
+.:
+Accion/  Comedia/  Infantiles/  Romanticas/  Terror/
+
+./Accion:
+ Cars.jpg                  'El hexorcista.xls'
+'Diario de una pasion.js'  'Smooth criminal.txt'
+
+./Comedia:
+ IT.xls         'Mision imposible.png'
+ Madagaskar.js  'Orgullo y prejuicio.txt'
+
+./Infantiles:
+'El juego del miedo.xls'  'Rapido y furioso.pdf'
+ Intenzamente.txt          Titanic.jpg
+
+./Romanticas:
+ Annabelle.js  'La mascara.js'  'Los vengadores.js'   Pocahontas.jpg
+
+./Terror:
+'La dama y el bagavundo.png'  'We will rock you.js'
+'Que paso ayer.pdf'           'Yo antes de ti.xls'
+
+User@DESKTOP-1P6IV88 MINGW64 ~/desktop/DH/Peliculas
+$ ^C
+
+User@DESKTOP-1P6IV88 MINGW64 ~/desktop/DH/Peliculas
+$  mkdir Infantiles Accion Terror Comedia Romanticas
+mkdir: cannot create directory ‘Infantiles’: File exists
+mkdir: cannot create directory ‘Accion’: File exists
+mkdir: cannot create directory ‘Terror’: File exists
+mkdir: cannot create directory ‘Comedia’: File exists
+mkdir: cannot create directory ‘Romanticas’: File exists
+
+User@DESKTOP-1P6IV88 MINGW64 ~/desktop/DH/Peliculas
+$ cd ../
+
+User@DESKTOP-1P6IV88 MINGW64 ~/desktop/DH
+$ mkdir ./Peliculas/Romanticas/Prueba
+
+User@DESKTOP-1P6IV88 MINGW64 ~/desktop/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+Accion/  Comedia/  Infantiles/  Romanticas/  Terror/
+
+./Peliculas/Accion:
+ Cars.jpg                  'El hexorcista.xls'
+'Diario de una pasion.js'  'Smooth criminal.txt'
+
+./Peliculas/Comedia:
+ IT.xls         'Mision imposible.png'
+ Madagaskar.js  'Orgullo y prejuicio.txt'
+
+./Peliculas/Infantiles:
+'El juego del miedo.xls'  'Rapido y furioso.pdf'
+ Intenzamente.txt          Titanic.jpg
+
+./Peliculas/Romanticas:
+ Annabelle.js    'Los vengadores.js'   Prueba/
+'La mascara.js'   Pocahontas.jpg
+
+./Peliculas/Romanticas/Prueba:
+
+./Peliculas/Terror:
+'La dama y el bagavundo.png'  'We will rock you.js'
+'Que paso ayer.pdf'           'Yo antes de ti.xls'
+
+User@DESKTOP-1P6IV88 MINGW64 ~/desktop/DH
+$ ^C
+
+User@DESKTOP-1P6IV88 MINGW64 ~/desktop/DH
+$ cd ./Peliculas/Romanticas
+
+User@DESKTOP-1P6IV88 MINGW64 ~/desktop/DH/Peliculas/Romanticas
+$ mkdir ../Accion/Prueba2
+
+User@DESKTOP-1P6IV88 MINGW64 ~/desktop/DH/Peliculas/Romanticas
+$ ls -R
+.:
+ Annabelle.js    'Los vengadores.js'   Prueba/
+'La mascara.js'   Pocahontas.jpg
+
+./Prueba:
+
+User@DESKTOP-1P6IV88 MINGW64 ~/desktop/DH/Peliculas/Romanticas
+$ cd ../
+
+User@DESKTOP-1P6IV88 MINGW64 ~/desktop/DH/Peliculas
+$ ls -R
+.:
+Accion/  Comedia/  Infantiles/  Romanticas/  Terror/
+
+./Accion:
+ Cars.jpg                  'El hexorcista.xls'  'Smooth criminal.txt'
+'Diario de una pasion.js'   Prueba2/
+
+./Accion/Prueba2:
+
+./Comedia:
+ IT.xls         'Mision imposible.png'
+ Madagaskar.js  'Orgullo y prejuicio.txt'
+
+./Infantiles:
+'El juego del miedo.xls'  'Rapido y furioso.pdf'
+ Intenzamente.txt          Titanic.jpg
+
+./Romanticas:
+ Annabelle.js    'Los vengadores.js'   Prueba/
+'La mascara.js'   Pocahontas.jpg
+
+./Romanticas/Prueba:
+
+./Terror:
+'La dama y el bagavundo.png'  'We will rock you.js'
+'Que paso ayer.pdf'           'Yo antes de ti.xls'
+
+
+
+Visual Code 
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/DH
+$ cd Accion
+bash: cd: Accion: No such file or directory
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/DH
+$ cd Peliculas/Accion
+
+User@DESKTOP-1P6IV88 MINGW64 ~/Desktop/DH/Peliculas/Accion
+$ mv ../Infantiles/"Rapido y furioso.pdf" ../
