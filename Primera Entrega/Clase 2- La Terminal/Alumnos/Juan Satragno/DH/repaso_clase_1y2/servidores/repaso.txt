@@ -1,0 +1,1 @@
+Un servidor es un equipo diseñado para procesar solicitudes y entregar datos a otros ordenadores a los que podríamos llamar clientes.
