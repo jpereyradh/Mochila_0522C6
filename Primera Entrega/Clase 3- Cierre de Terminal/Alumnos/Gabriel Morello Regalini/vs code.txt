@@ -1,0 +1,255 @@
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ cd Peliculas
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/Peliculas
+$ cd ../
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/Accion/"el hexorcista" "El exorcista"
+mv: cannot stat './Peliculas/Accion/el hexorcista': No such file or directory
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/Accion/"el hexorcista" ./Peliculas/Accion/ "El exorcista"
+mv: target 'El exorcista' is not a directory
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/Accion/"el hexorcista" ./Peliculas/Accion/"El exorcista"
+mv: cannot stat './Peliculas/Accion/el hexorcista': No such file or directory
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/Accion/"el hexorcista" ../Peliculas/Terror
+mv: cannot stat './Peliculas/Accion/el hexorcista': No such file or directory
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/Accion/"el hexorcista.cls" ../Peliculas/Terror
+mv: cannot stat './Peliculas/Accion/el hexorcista.cls': No such file or directory
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/Accion/"el hexorcista.xls" ../Peliculas/Terror
+mv: cannot move './Peliculas/Accion/el hexorcista.xls' to '../Peliculas/Terror': No such file or directory
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/Accion/"el hexorcista" ./Peliculas/Terror
+mv: cannot stat './Peliculas/Accion/el hexorcista': No such file or directory
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/Accion/"el hexorcista.xls" ./Peliculas/Terror
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/Accion/"Diario de una pasion.js" ./Peliculas/Romanticas
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/Accion/"cars" ./Peliculas/infantil
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/comedia/"It.txt" ./Peliculas/Terror
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/comedia/"Mision imposible" ./Peliculas/Accion
+mv: cannot stat './Peliculas/comedia/Mision imposible': No such file or directory
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/comedia/"Mision imposible.png" ./Peliculas/Accion
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/comedia/"orgullo y prejuicio.txt" ./Peliculas/Romanticas
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/comedia/Madagaskar.js ./Peliculas/Infantil
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/infantil/"El juego del miedo.xls" /Peliculas/terror
+mv: cannot move './Peliculas/infantil/El juego del miedo.xls' to '/Peliculas/terror': No such file or directory
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/infantil/"El juego del miedo.xls" ./Peliculas/Terror
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/Terror/"La dama y ei bagavundo" ./Peliculas/Infantil
+mv: cannot stat './Peliculas/Terror/La dama y ei bagavundo': No such file or directory
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/Terror/"La dama y ei bagavundo.png" ./Peliculas/Infantil
+mv: cannot stat './Peliculas/Terror/La dama y ei bagavundo.png': No such file or directory
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/Terror/"La dama y el bagavundo.png" ./Peliculas/Infantil
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/Terror/"orgullo y prejuicio.txt" ./Peliculas/Romanticas
+mv: cannot stat './Peliculas/Terror/orgullo y prejuicio.txt': No such file or directory
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/Romanticas/"Pocahontas.jpg" ./Peliculas/Infantil
+mv: cannot stat './Peliculas/Romanticas/Pocahontas.jpg': No such file or directory
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/Romanticas/"Pocahgontas.jpg" ./Peliculas/Infantil
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/infantil/"TItanic" ./Peliculas/Romanticas
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/Romanticas/Annabelle.js ./Peliculas/Terror
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/Terror/"Que paso ayer.pdf" ./Peliculas/Comedia
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ rmdir ./Peliculas/Prueba
+rmdir: failed to remove './Peliculas/Prueba': No such file or directory
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ rmdir Prueba
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/Terror/"Yo antes de ti.xls" ./Peliculas/Romanticas
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/Romanticas/"Los vengadores.js" ./Peliculas/Romanticas
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/Romanticas/"Los vengadores.js" ./Peliculas/Accion
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/Romanticas/"La mascara.js" ./Peliculas/Comedia
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/Infanti/"Rapido y furioso.jpg" ./Peliculas/Accion
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/Terror/"La dama y ei bagavundo" ./Peliculas/Infantil
+mv: cannot stat './Peliculas/Terror/La dama y ei bagavundo': No such file or directory
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/Terror/"La dama y ei bagavundo.png" ./Peliculas/Infantil
+mv: cannot stat './Peliculas/Terror/La dama y ei bagavundo.png': No such file or directory
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/Terror/"La dama y el bagavundo.png" ./Peliculas/Infantil
+
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/Romanticas/"Pocahgontas.jpg" ./Peliculas/Infantil
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/infantil/"TItanic" ./Peliculas/Romanticas
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/Romanticas/Annabelle.js ./Peliculas/Terror
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/Terror/"Que paso ayer.pdf" ./Peliculas/Comedia
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ rmdir ./Peliculas/Prueba
+rmdir: failed to remove './Peliculas/Prueba': No such file or directory
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ rmdir Prueba
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/Terror/"Yo antes de ti.xls" ./Peliculas/Romanticas
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/Romanticas/"Los vengadores.js" ./Peliculas/Romanticas
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/Romanticas/"Los vengadores.js" ./Peliculas/Accion
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/Romanticas/"La mascara.js" ./Peliculas/Comedia
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/Infanti/"Rapido y furioso.jpg" ./Peliculas/Accion
+mv: cannot stat './Peliculas/Infanti/Rapido y furioso.jpg': No such file or directory
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/Infantil/"Intenzamente.txt" ./Peliculas/Infantil/"Intensamente.txt"
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/Infantil/"Pocahgontas.jpg" ./Peliculas/Infantil/"Pocahontas.jpg"
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/Infantil/Madagaskar.js ./Peliculas/Infantil/Madagascar.js
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/Terror/"el hexorcista.xls" ./Peliculas/Terrr/"el exorcista.xls"
+mv: cannot move './Peliculas/Terror/el hexorcista.xls' to './Peliculas/Terrr/el exorcista.xls': No such file or directory
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mv ./Peliculas/Terror/"el hexorcista.xls" ./Peliculas/Terror/"el exorcista.xls"
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+Accion/  Comedia/  Infantil/  Romanticas/  Terror/
+
+./Peliculas/Accion:
+'Los vengadores.js'  'Mision imposible.png'   prueba2/  'Rapido y furioso.jpg'  'Smooth Criminal.txt'
+
+./Peliculas/Accion/prueba2:
+
+./Peliculas/Comedia:
+'La mascara.js'  'Que paso ayer.pdf'
+
+./Peliculas/Infantil:
+ cars   Intensamente.txt  'La dama y el bagavundo.png'   Madagascar.js   Pocahontas.jpg
+
+./Peliculas/Romanticas:
+'Diario de una pasion.js'  'orgullo y prejuicio.txt'   Prueba/   TItanic  'Yo antes de ti.xls'
+
+./Peliculas/Romanticas/Prueba:
+
+./Peliculas/Terror:
+ Annabelle.js  'el exorcista.xls'  'El juego del miedo.xls'   It.txt  'we will rock you.js'
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ rm ./Peliculas/Terror/"we will rock you.js"
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ rm ./Peliculas/Accion/"Smooth Criminal.txt"
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ touch ./Peliculas/Accion/prueba2/noBorrar.js
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ cd peliculas
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/peliculas
+$ mv ./Accion/prueba2/noBorrar.js ./Romanticas/Prueba
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/peliculas
+$ cd ../
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ touch camadax.txt
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ cd peliculas
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/peliculas
+$ mv ./Terror/It.txt ./infantiles
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/peliculas
+$ rm infantiles
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/peliculas
+$ mv ./Terror/It.txt ./infantil
+mv: cannot stat './Terror/It.txt': No such file or directory
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/peliculas
+$ touch ./Terror/It.txt
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/peliculas
+$ mv ./Terror/IT.txt ./infantil
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/peliculas
+$ rm ../camadax.txt
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/peliculas
+$ rm -r ./Romanticas/Prueba

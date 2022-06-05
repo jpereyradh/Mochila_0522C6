@@ -1,0 +1,212 @@
+﻿gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio
+$ mkdir DH
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio
+$ cd DH
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mkdir Peliculas
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ cd Peliculas
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/Peliculas
+$ mkdir Infantil Accion Terror Comedia Romaticas
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/Peliculas
+$ touch ./Infantil/"intenzamente.txt" "El juego del miedo.xls" "Rapido y furioso.pdf" "Titanic"
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/Peliculas
+$ rm "El juego del miedo.xls" "Rapido y furioso.pdf" "Titanic"
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/Peliculas
+$ touch ./Infantil/"El juego del miedo.xls" ./Intantil/"Rapido y furioso.pdf" ./Infantil/"Titanic"
+touch: cannot touch './Intantil/Rapido y furioso.pdf': No such file or directory
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/Peliculas
+$ cd Indantil
+bash: cd: Indantil: No such file or directory
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/Peliculas
+$ cd infantil
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/Peliculas/infantil
+$ cd ../
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/Peliculas
+$ touch ./Accion/"Smooth Criminal.txt" ./Accion/"Diario de una pasion.js" ./Accion/"el hexorcista.xls" ./Accion/"Cars"
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/Peliculas
+$ touch ./Terror/"La dama y el bagavundo.png" ./Terror/"Yo antes de ti.xls" ./Terror/"Que paso ayer.pdf" ./Terror/"we will rock you.js"
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/Peliculas
+$ cd comedia
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/Peliculas/comedia
+$ touch Madagaskar.js "Orgullo y prejuicio.txt" It.txt "Mision Imposible.png"
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/Peliculas/comedia
+$ cd ../
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/Peliculas
+$ cd Romantica
+bash: cd: Romantica: No such file or directory
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/Peliculas
+$ cd Romanticas
+bash: cd: Romanticas: No such file or directory
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/Peliculas
+$ ls
+Accion/  Comedia/  Infantil/  Romaticas/  Terror/
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/Peliculas
+$ cd Romanticas
+bash: cd: Romanticas: No such file or directory
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/Peliculas
+$ cd Romaticas
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/Peliculas/Romaticas
+$ touch Pocahgontas.jpg Annabelle.js "Los vengadores.js" "La mascara.js"
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/Peliculas/Romaticas
+$ cd ../
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/Peliculas
+$ mv Romaticas Romanticas
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/Peliculas
+$ ls
+Accion/  Comedia/  Infantil/  Romanticas/  Terror/
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/Peliculas
+$ ls -a
+./  ../  Accion/  Comedia/  Infantil/  Romanticas/  Terror/
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/Peliculas
+$ ls -r
+Terror/  Romanticas/  Infantil/  Comedia/  Accion/
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/Peliculas
+$ touch ./infantil "Rapido y furioso.jpg"
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/Peliculas
+$ ls -R
+.:
+ Accion/   Comedia/   Infantil/  'Rapido y furioso.jpg'   Romanticas/   Terror/
+
+./Accion:
+ Cars  'Diario de una pasion.js'  'Smooth Criminal.txt'  'el hexorcista.xls'
+
+./Comedia:
+ It.txt   Madagaskar.js  'Mision Imposible.png'  'Orgullo y prejuicio.txt'
+
+./Infantil:
+'El juego del miedo.xls'   Titanic   intenzamente.txt
+
+./Romanticas:
+ Annabelle.js  'La mascara.js'  'Los vengadores.js'   Pocahgontas.jpg
+
+./Terror:
+'La dama y el bagavundo.png'  'Que paso ayer.pdf'  'Yo antes de ti.xls'  'we will rock you.js'
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/Peliculas
+$ rm "Rapido y furioso.jpg"
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/Peliculas
+$ touch ./infantil/"Rapido y furioso.jpg"
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/Peliculas
+$ ls -R
+.:
+Accion/  Comedia/  Infantil/  Romanticas/  Terror/
+
+./Accion:
+ Cars  'Diario de una pasion.js'  'Smooth Criminal.txt'  'el hexorcista.xls'
+
+./Comedia:
+ It.txt   Madagaskar.js  'Mision Imposible.png'  'Orgullo y prejuicio.txt'
+
+./Infantil:
+'El juego del miedo.xls'  'Rapido y furioso.jpg'   Titanic   intenzamente.txt
+
+./Romanticas:
+ Annabelle.js  'La mascara.js'  'Los vengadores.js'   Pocahgontas.jpg
+
+./Terror:
+'La dama y el bagavundo.png'  'Que paso ayer.pdf'  'Yo antes de ti.xls'  'we will rock you.js'
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/Peliculas
+$ cd ../ DH
+bash: cd: too many arguments
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH/Peliculas
+$ cd ../
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mkdir ./Peliculas/Romanticas/Prueba
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ cd ./Peliculas/Accion
+
+---------------------------------------------------------------------------------------------------------------------------- 
+aca hubo un problema, no se que tocamos que nos fuimos a la carpeta de users asi que empece un bash nuevo desde la carpeta DH para seguir con el punto 9
+----------------------------------------------------------------------------------------------------------------------------	
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+Accion/  Comedia/  Infantil/  Romanticas/  Terror/
+
+./Peliculas/Accion:
+ Cars  'Diario de una pasion.js'  'Smooth Criminal.txt'  'el hexorcista.xls'
+
+./Peliculas/Comedia:
+ It.txt   Madagaskar.js  'Mision Imposible.png'  'Orgullo y prejuicio.txt'
+
+./Peliculas/Infantil:
+'El juego del miedo.xls'  'Rapido y furioso.jpg'   Titanic   intenzamente.txt
+
+./Peliculas/Romanticas:
+ Annabelle.js  'La mascara.js'  'Los vengadores.js'   Pocahgontas.jpg
+
+./Peliculas/Terror:
+'La dama y el bagavundo.png'  'Que paso ayer.pdf'  'Yo antes de ti.xls'  'we will rock you.js'
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mkdir ./Peliculas/Romanticas/ Prueba
+mkdir: cannot create directory ‘./Peliculas/Romanticas/’: File exists
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mkdir ./Peliculas/Romanticas/Prueba
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ ls -R
+.:
+Peliculas/  Prueba/
+
+./Peliculas:
+Accion/  Comedia/  Infantil/  Romanticas/  Terror/
+
+./Peliculas/Accion:
+ Cars  'Diario de una pasion.js'  'Smooth Criminal.txt'  'el hexorcista.xls'
+
+./Peliculas/Comedia:
+ It.txt   Madagaskar.js  'Mision Imposible.png'  'Orgullo y prejuicio.txt'
+
+./Peliculas/Infantil:
+'El juego del miedo.xls'  'Rapido y furioso.jpg'   Titanic   intenzamente.txt
+
+./Peliculas/Romanticas:
+ Annabelle.js  'La mascara.js'  'Los vengadores.js'   Pocahgontas.jpg   Prueba/
+
+./Peliculas/Romanticas/Prueba:
+
+./Peliculas/Terror:
+'La dama y el bagavundo.png'  'Que paso ayer.pdf'  'Yo antes de ti.xls'  'we will rock you.js'
+
+gabri@DESKTOP-INMA8GP MINGW64 ~/OneDrive/Escritorio/DH
+$ mkdir ./Peliculas/Accion/prueba2
