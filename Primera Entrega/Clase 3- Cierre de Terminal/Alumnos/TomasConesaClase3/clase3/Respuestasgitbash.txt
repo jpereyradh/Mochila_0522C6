@@ -1,0 +1,8 @@
+9)a) Si se puede con el siguiente comando: mkdir Infantiles Accion Terror Comedia Romanticas
+
+b) También se puede con:  touch Intenzamente.txt "El juego del miedo.xls" "Rapido y furioso.pdf" Titanic.jpg
+
+c) mkdir Peliculas/Romanticas/Prueba
+
+d) mkdir ../Accion/Prueba2
+
