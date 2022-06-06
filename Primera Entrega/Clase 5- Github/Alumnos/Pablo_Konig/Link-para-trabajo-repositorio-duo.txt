@@ -1,1 +1,3 @@
 https://github.com/CrisHash/TRABAJO-PRACTICO-DUO
+
+Se dejó solo la estructura y se eliminó el .git para poder subirlo.
