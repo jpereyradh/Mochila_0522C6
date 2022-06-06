@@ -1,0 +1,195 @@
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar (Jacqueline_Najar)
+$ mkdir ./Peliculas
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar (Jacqueline_Najar)
+$ mkdir ./Peliculas/Infantiles ./Peliculas/Accion ./Peliculas/Comedia ./Peliculas/Romanticas
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar (Jacqueline_Najar)
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+Accion/  Comedia/  Infantiles/  Romanticas/
+
+./Peliculas/Accion:
+
+./Peliculas/Comedia:
+
+./Peliculas/Infantiles:
+
+./Peliculas/Romanticas:
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar (Jacqueline_Najar)
+$ mkdir ./Peliculas/Terror
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar (Jacqueline_Najar)
+$ cd ./Peliculas/Infantiles
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar/Peliculas/Infantiles (Jacqueline_Najar)
+$ touch ./Intenzamente.txt ./"El juego del miedo.xlsx"
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar/Peliculas/Infantiles (Jacqueline_Najar)
+$ touch "Rapido y furioso.pdf" Titanic.jpg
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar/Peliculas/Infantiles (Jacqueline_Najar)
+$ cd ../Accion
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar/Peliculas/Accion (Jacqueline_Najar)
+$ touch "Smooth criminal.txt" "Diario de una pasion.js" "El hexorcista.xls" "Cars.jpg"
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar/Peliculas/Accion (Jacqueline_Najar)
+$ cd ../Terror
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar/Peliculas/Terror (Jacqueline_Najar)
+$ touch "La dama y el bagavundo.png" "Yo antes de ti.xls" "Que paso ayer.pdf" "We will rock you.js"
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar/Peliculas/Terror (Jacqueline_Najar)
+$ cd ../Comedia
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar/Peliculas/Comedia (Jacqueline_Najar)
+$ touch Madagaskar.js "Orgullo y prejuicio.txt" IT.xls "Mision imposible.png"
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar/Peliculas/Comedia (Jacqueline_Najar)
+$ cd ../Romanticas
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar/Peliculas/Romanticas (Jacqueline_Najar)
+$ touch Pocahontas.jpg Annabelle.js "Los vengadores.js" "La mascara.js"
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar/Peliculas/Romanticas (Jacqueline_Najar)
+$ ls -R
+.:
+ Annabelle.js  'La mascara.js'  'Los vengadores.js'   Pocahontas.jpg
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar/Peliculas/Romanticas (Jacqueline_Najar)
+$ cd ../
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar/Peliculas (Jacqueline_Najar)
+$ ls -R
+.:
+Accion/  Comedia/  Infantiles/  Romanticas/  Terror/
+
+./Accion:
+ Cars.jpg  'Diario de una pasion.js'  'El hexorcista.xls'  'Smooth criminal.txt'
+
+./Comedia:
+ IT.xls   Madagaskar.js  'Mision imposible.png'  'Orgullo y prejuicio.txt'
+
+./Infantiles:
+'El juego del miedo.xlsx'   Intenzamente.txt  'Rapido y furioso.pdf'   Titanic.jpg
+
+./Romanticas:
+ Annabelle.js  'La mascara.js'  'Los vengadores.js'   Pocahontas.jpg
+
+./Terror:
+'La dama y el bagavundo.png'  'Que paso ayer.pdf'  'We will rock you.js'  'Yo antes de ti.xls'
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar/Peliculas (Jacqueline_Najar)
+$ cd ../
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar (Jacqueline_Najar)
+$ mkdir ./Peliculas/Romanticas/Prueba
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar (Jacqueline_Najar)
+$ cd ./Peliculas/Romanticas
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar/Peliculas/Romanticas (Jacqueline_Najar)
+$ cd ../Accion/Prueba2
+bash: cd: ../Accion/Prueba2: No such file or directory
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar/Peliculas/Romanticas (Jacqueline_Najar)
+$ mkdir ../Accion/Prueba2
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar/Peliculas/Romanticas (Jacqueline_Najar)
+$ cd ../../
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar (Jacqueline_Najar)
+$ mv ./Peliculas/Accion/Cars.jpg ./Peliculas/Infantiles/Cars.jpg
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar (Jacqueline_Najar)
+$ mv ./Peliculas/Terror/"La dama y el bagavundo.png" ./Peliculas/Infantiles/"La dama y el bagavundo.p
+ng"
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar (Jacqueline_Najar)
+$ mv ./Peliculas/Comedia/Madagaskar.js ./Peliculas/Infantiles/Madagaskar.js 
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar (Jacqueline_Najar)
+$ mv ./Peliculas/Romanticas/Pocahontas.jpg ./Peliculas/Infantiles/Pocahontas.jpg
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar (Jacqueline_Najar)
+$ mv ./Peliculas/Infantiles/"Rapido y furioso.pdf" ./Peliculas/Accion/"Rapido y furioso.pdf"
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar (Jacqueline_Najar)
+$ mv ./Peliculas/Terror/"We will rock you.js" ./Peliculas/Accion/"We will rock you.js"
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar (Jacqueline_Najar)
+$ mv ./Peliculas/Comedia/"Mision imposible.png" ./Peliculas/Accion/"Mision imposible.png"
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar (Jacqueline_Najar)
+$ mv ./Peliculas/Romanticas/"Los vengadores.js" ./Peliculas/Accion/"Los vengadores.js"
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar (Jacqueline_Najar)
+$ mv ./Peliculas/Infantiles/"El juego del miedo.xlsx" ./Peliculas/Terror/"El juego del miedo.xlsx"
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar (Jacqueline_Najar)
+$ mv ./Peliculas/Accion/"El hexorcista.xls" ./Peliculas/Terror/"El hexorcista.xls"
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar (Jacqueline_Najar)
+$ mv ./Peliculas/Comedia/IT.xls ./Peliculas/Terror/IT.xls
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar (Jacqueline_Najar)
+$ mv ./Peliculas/Romanticas/Annabelle.js ./Peliculas/Terror/Annabelle.js
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar (Jacqueline_Najar)
+$ mv ./Peliculas/Infantiles/Titanic.jpg ./Peliculas/Romanticas/Titanic.jpg
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar (Jacqueline_Najar)
+$ mv ./Peliculas/Accion/"Diario de una pasion.js" ./Peliculas/Romanticas/"Diario de una pasion.js"
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar (Jacqueline_Najar)
+$ mv ./Peliculas/Terror/"Yo antes de ti.xls" ./Peliculas/Romanticas/"Yo antes de ti.xls"
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar (Jacqueline_Najar)
+$ mv ./Peliculas/Comedia/"Orgullo y prejuicio.txt" ./Peliculas/Romanticas/"Orgullo y prejuicio.txt"
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar (Jacqueline_Najar)
+$ mv ./Peliculas/Terror/"Que paso ayer.pdf" ./Peliculas/Comedia/"Que paso ayer.pdf"
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar (Jacqueline_Najar)
+$ mv ./Peliculas/Romanticas/"La mascara.js" ./Peliculas/Comedia/"La mascara.js"
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar (Jacqueline_Najar)
+$ mv ./Peliculas/Infantiles/Madagaskar.js ./Peliculas/Infantiles/Madagascar.js
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar (Jacqueline_Najar)
+$ mv ./Peliculas/Infantiles/"La dama y el bagavundo.png" ./Peliculas/Infantiles/"La dama y el vagabundo.png"
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar (Jacqueline_Najar)
+$ mv ./Peliculas/Infantiles/Intenzamente.txt ./Peliculas/Infantiles/Intensamente.txt
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar (Jacqueline_Najar)
+$ rm ./Peliculas/Accion/"We will rock you.js"
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar (Jacqueline_Najar)
+$ rm ./Peliculas/Accion/"Smooth criminal.txt"
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar (Jacqueline_Najar)
+$ touch ./Peliculas/Accion/Prueba2/noBorrar.js
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar (Jacqueline_Najar)
+$ touch ./Peliculas/camadax.txt
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar (Jacqueline_Najar)
+$ cd ./Peliculas
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar/Peliculas (Jacqueline_Najar)
+$ mv ./Terror/IT.xls ./Infantiles/IT.xls
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar/Peliculas (Jacqueline_Najar)
+$ rm camadax.txt
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar/Peliculas (Jacqueline_Najar)
+$ rmdir ./Romanticas/Prueba
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 3- Cierre de Terminal/Alumnos/Jacqueline_Najar/Peliculas (Jacqueline_Najar)
+$

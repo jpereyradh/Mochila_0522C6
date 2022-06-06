@@ -1,0 +1,65 @@
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 2- La Terminal/Alumnos/Jacqueline_Najar (Jacqueline_Najar)
+$ mkdir repaso_clase1y2
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 2- La Terminal/Alumnos/Jacqueline_Najar (Jacqueline_Najar)
+$ cd ./repaso_clase1y2/
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 2- La Terminal/Alumnos/Jacqueline_Najar/repaso_clase1y2 (Jacqueline_Najar)
+$ mkdir ./historia_de_la_contabilidad ./que_haremos_hoy ./servidores ./interfaces_de_usuario ./infraestructura
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 2- La Terminal/Alumnos/Jacqueline_Najar/repaso_clase1y2 (Jacqueline_Najar)
+$ touch ./infraestructura/repaso.txt ./servidores/repaso.pdf ./interfaces_de_usuario/repaso.jpg ./que_haremos_hoy/repaso.xls ./historia_de_la_contabilidad/repaso.png
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 2- La Terminal/Alumnos/Jacqueline_Najar/repaso_clase1y2 (Jacqueline_Najar)
+$ ls -R
+.:
+historia_de_la_contabilidad/  infraestructura/  interfaces_de_usuario/  que_haremos_hoy/  servidores/
+
+./historia_de_la_contabilidad:
+repaso.png
+
+./infraestructura:
+repaso.txt
+
+./interfaces_de_usuario:
+repaso.jpg
+
+./que_haremos_hoy:
+repaso.xls
+
+./servidores:
+repaso.pdf
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 2- La Termi
+nal/Alumnos/Jacqueline_Najar/repaso_clase1y2 (Jacqueline_Najar)
+$ mv ./historia_de_la_contabilidad ./historia_de_la_informatica
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 2- La Termi
+nal/Alumnos/Jacqueline_Najar/repaso_clase1y2 (Jacqueline_Najar)
+$ mv ./que_haremos_hoy/ ./software_y_hardware
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 2- La Termi
+nal/Alumnos/Jacqueline_Najar/repaso_clase1y2 (Jacqueline_Najar)
+$ mv ./in
+infraestructura/       interfaces_de_usuario/
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 2- La Terminal/Alumnos/Jacqueline_Najar/repaso_clase1y2 (Jacqueline_Najar)
+$ mv ./infraestructura/ ./git_bash_y_vscode
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 2- La Terminal/Alumnos/Jacqueline_Najar/repaso_clase1y2 (Jacqueline_Najar)
+$ nano ./historia_de_la_informatica/repaso.png
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 2- La Terminal/Alumnos/Jacqueline_Najar/repaso_clase1y2 (Jacqueline_Najar)
+$ nano ./interfaces_de_usuario/repaso.jpg
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 2- La Terminal/Alumnos/Jacqueline_Najar/repaso_clase1y2 (Jacqueline_Najar)
+$ nano ./historia_de_la_informatica/repaso.png
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 2- La Terminal/Alumnos/Jacqueline_Najar/repaso_clase1y2 (Jacqueline_Najar)
+$ nano ./software_y_hardware/repaso.xls
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 2- La Terminal/Alumnos/Jacqueline_Najar/repaso_clase1y2 (Jacqueline_Najar)
+$ nano ./git_bash_y_vscode/repaso.txt
+
+jacqu@LAPTOP-BM83V9V8 MINGW64 ~/DH/intro_informatica/Mochila_0522C6/Primera Entrega/Clase 2- La Terminal/Alumnos/Jacqueline_Najar/repaso_clase1y2 (Jacqueline_Najar)
+$ nano ./servidores/repaso.pdf
