@@ -1,0 +1,14 @@
+a- El autor de git es Linus Torvalds, quien originalmente lo creo para para controlar el desarrollo del 
+kernel de Linux. Git se pensó como un motor de bajo nivel sobre el cual otros pudieran escribir la interfaz de usuario o front end como Cogito o StGIT.
+Sin embargo, Git se ha convertido desde entonces en un sistema de control de versiones con
+funcionalidad plena. Al dia de hoy se utiliza compatibilidad del mantenimiento de versiones de aplicaciones
+cuando estas tienen un gran número de archivos de código fuente. Su propósito es llevar registro de los cambios
+en archivos de computadora incluyendo coordinar el trabajo que varias personas realizan sobre archivos 
+compartidos en un repositorio de código remoto y en sus repositorios locales.
+
+b- Github actualmente pertenece a Windows, el cual aprovechó la prospera trayectoria que venía teniendo 
+desde el 2010 hasta el 2018, cuando recibe un ataque de degeneración de archivos, lo que deja a la empresa
+vulnerable pero aún prospera y con crecimientos anuales del 300% y millones de repositorios de usuarios. 
+Windows vio la oportunidad y la aprovechó.
+
+c- Se puede trabajar desde Windows en Powershell y Command Prompt o en la terminal de Mac.
