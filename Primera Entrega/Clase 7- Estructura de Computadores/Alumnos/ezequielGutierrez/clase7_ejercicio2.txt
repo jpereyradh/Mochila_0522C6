@@ -1,0 +1,7 @@
+Respuesta:
+
+-Matilda: And Ryzen 5 3600
+-Marcelo: intel i3 3230
+-hermano Mayor: Amd a8 9600
+
+Agregamos como comentario, que tales procesadores deben ir con sus respectivos elementos de memoria y placas para funcionar correctamente
