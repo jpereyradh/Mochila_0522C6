@@ -1,0 +1,168 @@
+Consigna para trabajo en clase
+Utilizando la CLI de Git Bash realizar las siguientes consignas.
+1) Crear en tu carpeta de DH el directorio Películas
+2) Crear en tu carpeta Peliculas cinco directorios llamados:
+● Infantiles 
+● Accion 
+● Terror 
+● Comedia
+● Romanticas
+3) Crear en la carpeta Infantiles cuatro archivos llamados:
+❖ Intenzamente.txt 
+❖ El juego del miedo.xls
+❖ Rapido y furioso.pdf
+❖ Titanic.jpg
+4) Crear en la carpeta Accion cuatro archivos llamados:
+❖ Smooth criminal.txt
+❖ Diario de una pasion.js
+❖ El hexorcista.xls 
+❖ Cars.jpg
+5) Crear en la carpeta Terror cuatro archivos llamados:
+❖ La dama y el bagavundo.png
+❖ Yo antes de ti.xls
+❖ Que paso ayer.pdf 
+❖ We will rock you.js
+6) Crear en la carpeta Comedia cuatro archivos llamados:
+❖ Madagaskar.js
+❖ Orgullo y prejuicio.txt 
+❖ IT.xls
+❖ Mision imposible.png
+7) Crear en la carpeta Romantica cuatro archivos llamados:
+❖ Pocahontas.jpg
+❖ Annabelle.js
+❖ Los vengadores.js
+❖ La mascara.js
+
+Validando el Resultado
+8) Una vez realizada la actividad deberemos corroborar el resultado obtenido, 
+ubicándonos en la carpeta peliculas y utilizando el comando: ls -R
+9) Si el resultado coincide con la plantilla guía de la diapositiva anterior resolver las 
+siguientes preguntas 
+● ¿Se pueden crear las carpetas del punto 2 en un solo comando? En caso que la 
+respuesta sea positiva escribir el comando
+● ¿Se pueden crear los archivos del punto 3 en un solo comando? En caso que la 
+respuesta sea positiva escribir el comando
+● Estando ubicados en la carpeta DH crear una carpeta llamada Prueba dentro de 
+la carpeta Romanticas en un solo comando y escribirlo aquí. 
+● Estando ubicados en la carpeta Romanticas crear una carpeta llamada Prueba2
+dentro de la carpeta Accion
+
+
+
+
+
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/peliculas
+$ mkdir Infantiles Accion Terror Comedia Romanticas
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/peliculas
+$ cd Infantiles/
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/peliculas/Infantiles
+$ touch Intenzamente.txt "El juego del miedo.xls"
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/peliculas/Infantiles
+$ touch Rapido y furioso.pdf
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/peliculas/Infantiles
+$ touch "Rapido y furioso.pdf"
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/peliculas/Infantiles
+$ touch titanic.jpg
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/peliculas/Infantiles
+$ cd ..
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/peliculas
+$ touch "Smooth criminal.txt" "Diario de una pasion.js" "El hexorcista.xls" "Cars.jpg"
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/peliculas
+$ touch "Smooth criminal.txt" "Diario de una pasion.js" "El hexorcista.xls" "Cars.jpg"
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/peliculas
+$ ^C
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/peliculas
+$ cd Accion/
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/peliculas/Accion
+$ touch "Smooth criminal.txt" "Diario de una pasion.js" "El hexorcista.xls" "Cars.jpg"
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/peliculas/Accion
+$ rm Cars.jpg
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/peliculas/Accion
+$ touch Cars.jpg
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/peliculas/Accion
+$ cd ..
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/peliculas
+$ rm Cars.jpg "Diario de una pasion.js" "El hexorcista.xls" "Smooth criminal.txt"
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/peliculas
+$ cd Terror/
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/peliculas/Terror
+$ touch "La dama y el bagavundo.png" "Yo antes de ti.xls" "Que paso ayer.pdf" "we will rock you.js"
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/peliculas/Terror
+$ cd ..
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/peliculas
+$ cd Comedia/
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/peliculas/Comedia
+$ touch Madagascar.js "Orgullo y prejuicio.txt" "Mision imposible.png" IT.xls
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/peliculas/Comedia
+$ cd ..
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/peliculas
+$ cd Romanticas/
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/peliculas/Romanticas
+$ touch Pocahontas.jpg Annabelle.js "Los vengadores.js" "La mascara.js"
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/peliculas/Romanticas
+$ cd ..
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/peliculas
+$ ls -R
+.:
+Accion/  Comedia/  Infantiles/  Romanticas/  Terror/
+
+./Accion:
+ Cars.jpg  'Diario de una pasion.js'  'El hexorcista.xls'  'Smooth criminal.txt'
+
+./Comedia:
+ IT.xls   Madagascar.js  'Mision imposible.png'  'Orgullo y prejuicio.txt'
+
+./Infantiles:
+'El juego del miedo.xls'   Intenzamente.txt  'Rapido y furioso.pdf'   titanic.jpg
+
+./Romanticas:
+ Annabelle.js  'La mascara.js'  'Los vengadores.js'   Pocahontas.jpg
+
+./Terror:
+'La dama y el bagavundo.png'  'Que paso ayer.pdf'  'Yo antes de ti.xls'  'we will rock you.js'
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/peliculas
+$ ls -R
+.:
+Accion/  Comedia/  Infantiles/  Romanticas/  Terror/
+
+./Accion:
+ Cars.jpg  'Diario de una pasion.js'  'El hexorcista.xls'  'Smooth criminal.txt'
+
+./Comedia:
+ IT.xls   Madagascar.js  'Mision imposible.png'  'Orgullo y prejuicio.txt'
+
+./Infantiles:
+'El juego del miedo.xls'   Intenzamente.txt  'Rapido y furioso.pdf'   titanic.jpg
+
+./Romanticas:
+ Annabelle.js  'La mascara.js'  'Los vengadores.js'   Pocahontas.jpg
+
+./Terror:
+'La dama y el bagavundo.png'  'Que paso ayer.pdf'  'Yo antes de ti.xls'  'we will rock you.js'

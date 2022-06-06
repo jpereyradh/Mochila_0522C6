@@ -1,0 +1,121 @@
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH
+$ mkdir repaso_clase1y2
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH
+$ cd .
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH
+$ ls
+repaso_clase1y2/
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH
+$ cd repaso_clase1y2/
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/repaso_clase1y2
+$ mkdir "historia_de_la_contabilidad" "que_haremos_hoy" "servidores" "interfaces_de_usuarios" "infraestructuras"
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/repaso_clase1y2
+$ ls
+historia_de_la_contabilidad/  interfaces_de_usuarios/  servidores/
+infraestructuras/             que_haremos_hoy/
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/repaso_clase1y2
+$
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/repaso_clase1y2
+$ cd historia_de_la_contabilidad/
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/repaso_clase1y2/historia_de_la_contabilidad
+$ touch repaso.txt
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/repaso_clase1y2/historia_de_la_contabilidad
+$ cd ./
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/repaso_clase1y2/historia_de_la_contabilidad
+$ ls
+repaso.txt
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/repaso_clase1y2/historia_de_la_contabilidad
+$ cd
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~
+$ cd Desktop/DH/repaso_clase1y2/
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/repaso_clase1y2
+$ touch servidores interfaces_de_usuarios/ repaso.txt
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/repaso_clase1y2
+$ Remove repaso.txt
+bash: Remove: command not found
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/repaso_clase1y2
+$ rm repaso.txt
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/repaso_clase1y2
+$ ls
+historia_de_la_contabilidad/  interfaces_de_usuarios/  servidores/
+infraestructuras/             que_haremos_hoy/
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/repaso_clase1y2
+$ cd interfaces_de_usuarios/
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/repaso_clase1y2/interfaces_de_usuarios
+$ touch repaso.txt
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/repaso_clase1y2/interfaces_de_usuarios
+$ cd ..
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/repaso_clase1y2
+$ cd servidores/
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/repaso_clase1y2/servidores
+$ touch repaso.txt
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/repaso_clase1y2/servidores
+$ cd ..
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/repaso_clase1y2
+$ cd infraestructuras/
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/repaso_clase1y2/infraestructuras
+$ touch repaso.txt
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/repaso_clase1y2/infraestructuras
+$ cd ..
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/repaso_clase1y2
+$ cd que_haremos_hoy/
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/repaso_clase1y2/que_haremos_hoy
+$ touch repaso.txt
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/repaso_clase1y2/que_haremos_hoy
+$ cd ..
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH/repaso_clase1y2
+$ cd ..
+
+Alejandro@DESKTOP-KV4U53E MINGW64 ~/Desktop/DH
+$ ls -R
+.:
+repaso_clase1y2/
+
+./repaso_clase1y2:
+historia_de_la_contabilidad/  interfaces_de_usuarios/  servidores/
+infraestructuras/             que_haremos_hoy/
+
+./repaso_clase1y2/historia_de_la_contabilidad:
+repaso.txt
+
+./repaso_clase1y2/infraestructuras:
+repaso.txt
+
+./repaso_clase1y2/interfaces_de_usuarios:
+repaso.txt
+
+./repaso_clase1y2/que_haremos_hoy:
+repaso.txt
+
+./repaso_clase1y2/servidores:
+repaso.txt
+
