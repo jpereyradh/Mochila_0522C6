@@ -1,0 +1,9 @@
+Software y hardware conviven en una relación de dos vías: enviar y recibir.   
+Hardware refiere a los componentes físicos por donde se procesa la información, se ingresa la información,     
+se expresa la información al usuario y se transmite la información entre componentes internos y externos       
+y con el software, que permite una vinculación y entendimiento  directa con entre este hardware y el usuario 
+Software permite transparentar procesamientos dentro del hardware y otorgarle ordenes a este para que el mismo 
+realice operaciones mátematicas, lógicas y algorítmicas y arroje resultados ques puedan ser intepretados    
+nuevamente por el software, el cual se encargará de brindar una interfaz de alta calidad por la que el usuario 
+pueda interactuar tanto entre distintos softwares como entre hardwares.
+La interacción que se forma es usuario - software - hardware - software - usuario. 

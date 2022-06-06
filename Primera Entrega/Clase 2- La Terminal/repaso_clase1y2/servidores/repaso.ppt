@@ -1,0 +1,4 @@
+Los servidores se emplean para almacenar distintos tipos de datos en forma local o remota. 
+Se establece una relación usuario-servidor, donde el primero puede subir y solicitar datos a una red o puede
+ingresar al contenido almacenado en forma de archivos de distinto tipo, para ser editados, copiados, borrados 
+y compartir estas modifiaciones en instrucciones o nuevos datos con la red generada en forma local o remota.
