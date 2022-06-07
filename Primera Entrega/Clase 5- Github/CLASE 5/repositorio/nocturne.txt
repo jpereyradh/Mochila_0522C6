@@ -1,0 +1,9 @@
+muy buen champ
+el mejor jg
+<<<<<<< HEAD
+va ad 
+bien picante
+=======
+me lo hago ap troll
+con eco de luden
+>>>>>>> 6117da0d509263bcfd95e7708afd365f24e29c86
