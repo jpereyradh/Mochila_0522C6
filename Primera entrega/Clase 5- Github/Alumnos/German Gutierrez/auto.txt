@@ -1,0 +1,6 @@
+tiene 4 ruedas
+se transporta sobre tierra
+es rojo
+es grande 
+es barato
+es caro 
