@@ -1,0 +1,308 @@
+Last login: Fri May 20 07:11:36 on console
+lucascepeda@MacBook-Pro-de-Lucas ~ % bash
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+bash-3.2$ bash version
+bash: version: No such file or directory
+bash-3.2$ gitbash version
+bash: gitbash: command not found
+bash-3.2$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bash-3.2$ pwd
+/Users/lucascepeda
+bash-3.2$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bash-3.2$ pwd
+/Users/lucascepeda
+bash-3.2$ mkdir DH
+bash-3.2$ mkdir Peliculas
+bash-3.2$ ls
+Applications		Documents		Movies			Public
+Colossal Order		Downloads		Music			Sites
+DH			Google Drive		Peliculas		iCloud Drive (archivo)
+Desktop			Library			Pictures		isus
+bash-3.2$ cd Desktop
+bash-3.2$ ls
+2022 ESCUELA ALTER
+Captura de Pantalla 2022-05-19 a la(s) 07.35.57.png
+Captura de Pantalla 2022-05-20 a la(s) 20.04.06.png
+Captura de Pantalla 2022-05-20 a la(s) 20.04.54.png
+DOCUMENTOS TRAMO
+Digital House
+Escritorio
+FACULTAD
+Juli
+Material para EE
+Módulo 3 Didactica de la lengua.pdf
+Peliculas
+Programacion
+Trabajo Final Leanza Cecilia.pdf
+lghub_installer.app
+~$ parcial 2022.docx
+~$ra Juliana PARCIAL.docx
+bash-3.2$ mkdir DH
+bash-3.2$ cd DH
+bash-3.2$ mkdir Peliculas
+bash-3.2$ cd Peliculas
+bash-3.2$ mkdir Infantiles Accion Terror Comedia Romanticas
+bash-3.2$ ls
+Accion		Comedia		Infantiles	Romanticas	Terror
+bash-3.2$ cd Infantiles
+bash-3.2$ mkdir Intenzamente.txt "El juego del miedo".txt "Rapido y furioso".txt Titanic.txt
+bash-3.2$ ls
+El juego del miedo.txt	Intenzamente.txt	Rapido y furioso.txt	Titanic.txt
+bash-3.2$ cd ../
+bash-3.2$ ls
+Accion		Comedia		Infantiles	Romanticas	Terror
+bash-3.2$ cd Accion
+bash-3.2$ mkdir "Smooth criminal".txt "Diario de una pasion".txt "El hexorcista".txt cars.txt
+bash-3.2$ ls
+Diario de una pasion.txt	Smooth criminal.txt
+El hexorcista.txt		cars.txt
+bash-3.2$ cd ../
+bash-3.2$ cd Terror
+bash-3.2$ mkdir "La dama y el bagavundo".txt "Yo antes de ti".txt "Que paso ayer".txt "We will rock you".txt
+bash-3.2$ ls
+La dama y el bagavundo.txt	We will rock you.txt
+Que paso ayer.txt		Yo antes de ti.txt
+bash-3.2$ cd ../
+bash-3.2$ cd comedia
+bash-3.2$ ls
+bash-3.2$ madagaskar.txt "orgullo y prejuicio".txt IT.txt "mision imposible".txt
+bash: madagaskar.txt: command not found
+bash-3.2$ ls
+bash-3.2$ mkdir madagaskar.txt "orgullo y prejuicio".txt IT.txt "mision imposible".txt
+bash-3.2$ ls
+IT.txt			madagaskar.txt		mision imposible.txt	orgullo y prejuicio.txt
+bash-3.2$ cd ../
+bash-3.2$ cd romanticas
+bash-3.2$ ls
+bash-3.2$ mkdir pocahontas.txt annabelle.txt "los vengadores".txt "la mascara".txt
+bash-3.2$ ls
+annabelle.txt		la mascara.txt		los vengadores.txt	pocahontas.txt
+bash-3.2$ ls
+annabelle.txt		la mascara.txt		los vengadores.txt	pocahontas.txt
+bash-3.2$ cd ../
+bash-3.2$ ls
+Accion		Comedia		Infantiles	Romanticas	Terror
+bash-3.2$ ls -R
+Accion		Comedia		Infantiles	Romanticas	Terror
+
+./Accion:
+Diario de una pasion.txt	Smooth criminal.txt
+El hexorcista.txt		cars.txt
+
+./Accion/Diario de una pasion.txt:
+
+./Accion/El hexorcista.txt:
+
+./Accion/Smooth criminal.txt:
+
+./Accion/cars.txt:
+
+./Comedia:
+IT.txt			madagaskar.txt		mision imposible.txt	orgullo y prejuicio.txt
+
+./Comedia/IT.txt:
+
+./Comedia/madagaskar.txt:
+
+./Comedia/mision imposible.txt:
+
+./Comedia/orgullo y prejuicio.txt:
+
+./Infantiles:
+El juego del miedo.txt	Intenzamente.txt	Rapido y furioso.txt	Titanic.txt
+
+./Infantiles/El juego del miedo.txt:
+
+./Infantiles/Intenzamente.txt:
+
+./Infantiles/Rapido y furioso.txt:
+
+./Infantiles/Titanic.txt:
+
+./Romanticas:
+annabelle.txt		la mascara.txt		los vengadores.txt	pocahontas.txt
+
+./Romanticas/annabelle.txt:
+
+./Romanticas/la mascara.txt:
+
+./Romanticas/los vengadores.txt:
+
+./Romanticas/pocahontas.txt:
+
+./Terror:
+La dama y el bagavundo.txt	We will rock you.txt
+Que paso ayer.txt		Yo antes de ti.txt
+
+./Terror/La dama y el bagavundo.txt:
+
+./Terror/Que paso ayer.txt:
+
+./Terror/We will rock you.txt:
+
+./Terror/Yo antes de ti.txt:
+bash-3.2$ clear
+
+bash-3.2$ pwd
+/Users/lucascepeda/Desktop/DH/Peliculas
+bash-3.2$ cd ../
+cd: error retrieving current directory: getcwd: cannot access parent directories: Operation not permitted
+bash-3.2$ cd /Users/lucascepeda/Desktop/DH/Peliculas
+bash: cd: /Users/lucascepeda/Desktop/DH/Peliculas: No such file or directory
+bash-3.2$ cd /Users/lucascepeda/Desktop
+bash-3.2$ ls
+2022 ESCUELA ALTER
+Captura de Pantalla 2022-05-19 a la(s) 07.35.57.png
+Captura de Pantalla 2022-05-20 a la(s) 20.04.06.png
+Captura de Pantalla 2022-05-20 a la(s) 20.04.54.png
+DOCUMENTOS TRAMO
+Digital House
+Escritorio
+FACULTAD
+Juli
+Material para EE
+Módulo 3 Didactica de la lengua.pdf
+Peliculas
+Programacion
+Trabajo Final Leanza Cecilia.pdf
+lghub_installer.app
+~$ parcial 2022.docx
+~$ra Juliana PARCIAL.docx
+bash-3.2$ clear
+
+
+
+
+
+
+
+
+
+
+bash-3.2$ mkdir DH
+bash-3.2$ cd DH
+bash-3.2$ mkdir Peliculas
+bash-3.2$ ls
+Peliculas
+bash-3.2$ cd peliculas
+bash-3.2$ Mkdir Infantiles Accion Terror Comedia Romanticas
+bash-3.2$ ls
+Accion		Comedia		Infantiles	Romanticas	Terror
+bash-3.2$ cd Infantiles
+bash-3.2$ ls
+bash-3.2$ touch Intenzamente.txt "El juego del miedo".xls "Rapido y furioso".pdf Titanic.jpg
+bash-3.2$ ls
+El juego del miedo.xls	Intenzamente.txt	Rapido y furioso.pdf	Titanic.jpg
+bash-3.2$ cd ../
+bash-3.2$ ls
+Accion		Comedia		Infantiles	Romanticas	Terror
+bash-3.2$ cd comedia
+bash-3.2$ Touch "Smooth criminal".txt "Diario de una pasion”.js "El hexorcista”.xls cars.jpg
+bash-3.2$ ls
+Diario de una pasion”.js El	cars.jpg
+Smooth criminal.txt		hexorcista”.xls
+bash-3.2$ cd ../
+bash-3.2$ ls
+Accion		Comedia		Infantiles	Romanticas	Terror
+bash-3.2$ cd infantiles
+bash-3.2$ touch Intenzamente.txt "El juego del miedo".txt "Rapido y furioso".txt Titanic.txt
+bash-3.2$ ls
+El juego del miedo.txt	Intenzamente.txt	Rapido y furioso.txt	Titanic.txt
+bash-3.2$ cd ../
+bash-3.2$ cd accion
+bash-3.2$ ls
+bash-3.2$ Touch "Smooth criminal".txt "Diario de una pasion”.js "El hexorcista”.xls cars.jpg
+bash-3.2$ ls
+Diario de una pasion”.js El	cars.jpg
+Smooth criminal.txt		hexorcista”.xls
+bash-3.2$ cd ../
+bash-3.2$ cd terror
+bash-3.2$ Touch "La dama y el bagavundo”.png "Yo antes de ti”.xls "Que paso ayer”.pdf "We will rock you”.js
+bash-3.2$ ls
+La dama y el bagavundo”.png Yo		rock
+Que paso ayer”.pdf We			ti”.xls
+antes					will
+de					you”.js
+bash-3.2$ ls
+La dama y el bagavundo”.png Yo		rock
+Que paso ayer”.pdf We			ti”.xls
+antes					will
+de					you”.js
+bash-3.2$ ls
+bash-3.2$ Touch "La dama y el bagavundo”.png "Yo antes de ti”.xls "Que paso ayer”.pdf "We will rock you”.js
+bash-3.2$ ls
+La dama y el bagavundo”.png Yo		rock
+Que paso ayer”.pdf We			ti”.xls
+antes					will
+de					you”.js
+bash-3.2$ touch "la dama y el bagavundo.png" "yo antes de ti.xls" "que paso ayer.js" "we will rock you.js"
+bash-3.2$ ls
+la dama y el bagavundo.png	we will rock you.js
+que paso ayer.js		yo antes de ti.xls
+bash-3.2$ cd ../
+bash-3.2$ ls
+Accion		Comedia		Infantiles	Romanticas	Terror
+bash-3.2$ cd comedia
+bash-3.2$ touch madagaskar.js "orgullo y prejuicio.txt” IT.xls "mision imposible.png”
+bash-3.2$ ls
+imposible.png”					orgullo y prejuicio.txt” IT.xls mision
+madagaskar.js
+bash-3.2$ touch madagaskar.js "orgullo y prejuicio.txt” IT.xls "mision imposible.png”
+bash-3.2$ touch madagaskar.js "orgullo y prejuicio.txt” “IT.xls” "mision imposible.png”
+bash-3.2$ ls
+imposible.png”					orgullo y prejuicio.txt” “IT.xls” mision
+madagaskar.js
+bash-3.2$ ls
+bash-3.2$ 
+bash-3.2$ touch "madagaskar.js" "orgullo y prejuicio.txt" "it.xls" "mision imposible.png"
+bash-3.2$ touch "pocahontas.jpg" "annabelle.js" "los vengadores.js" "la mascara.js"
+bash-3.2$ 
