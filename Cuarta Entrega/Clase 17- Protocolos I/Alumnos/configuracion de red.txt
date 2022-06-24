@@ -1,0 +1,51 @@
+Nombre:	Ethernet 2
+Descripción:	Intel(R) Ethernet Connection (10) I219-V
+Dirección física (MAC):	1c:69:7a:aa:4c:72
+Estado:	Operativo
+Unidad de transmisión máxima:	1500
+Velocidad de vínculo (recepción/transmisión):	1000/1000 (Mbps)
+DHCP habilitado:	Sí
+Servidores DHCP:	192.168.0.1
+La concesión DHCP se obtuvo:	‎viernes, ‎24 ‎de ‎junio ‎de ‎2022 20:29:25
+La concesión DHCP expira:	‎viernes, ‎24 ‎de ‎junio ‎de ‎2022 21:29:25
+Dirección IPv4:	192.168.0.34/24
+Dirección IPv6:	2800:810:49d:1f8:b865:ee45:793d:4f40/64, 2800:810:49d:1f8:ed8f:61aa:bda0:6022/128, fdaa:bbcc:ddee:0:b865:ee45:793d:4f40/64, 2800:810:49d:1f8:191e:df89:aff2:f334/128, fdaa:bbcc:ddee:0:191e:df89:aff2:f334/128, fe80::b865:ee45:793d:4f40%18/64
+Puerta de enlace predeterminada IPv4:	192.168.0.1
+Puerta de enlace predeterminada IPv6:	fe80::3aa6:59ff:fe34:5e8e%18
+Servidores DNS:	2800:810:100:1:200:115:192:29 (sin cifrar)
+2800:810:100:3:200:115:192:89 (sin cifrar)
+2800:810:100:1:200:115:192:30 (sin cifrar)
+2800:810:100:1:200:115:192:28 (sin cifrar)
+100.72.3.5 (sin cifrar)
+100.72.3.109 (sin cifrar)
+Nombre de dominio DNS:	home
+Sufijo de conexión de DNS:	home
+Lista de búsqueda de sufijos DNS:	home
+Nombre de red:	Fliamolina
+Categoría de red:	Privado
+
+Conectividad (IPv4/IPv6):	Conectado a Internet
+Nombre:	VirtualBox Host-Only Network
+Descripción:	VirtualBox Host-Only Ethernet Adapter
+Dirección física (MAC):	0a:00:27:00:00:09
+Estado:	Operativo
+Unidad de transmisión máxima:	1500
+Dirección IPv4:	192.168.56.1/24
+Dirección IPv6:	fe80::881c:b845:870d:a636%9/64
+Servidores DNS:	fec0:0:0:ffff::1%1 (sin cifrar)
+fec0:0:0:ffff::2%1 (sin cifrar)
+fec0:0:0:ffff::3%1 (sin cifrar)
+
+Conectividad (IPv4/IPv6):	Conectado a red desconocida, sin tráfico
+Nombre:	Conexión de área local* 11
+Descripción:	Microsoft Wi-Fi Direct Virtual Adapter #3
+Dirección física (MAC):	14:85:7f:46:b6:4a
+Estado:	No operativo
+Unidad de transmisión máxima:	1500
+Dirección IPv4:	169.254.138.57/16
+Dirección IPv6:	fe80::5d78:2c60:3dc5:8a39%8/64
+Servidores DNS:	fec0:0:0:ffff::1%1 (sin cifrar)
+fec0:0:0:ffff::2%1 (sin cifrar)
+fec0:0:0:ffff::3%1 (sin cifrar)
+
+
