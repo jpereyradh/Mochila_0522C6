@@ -1,0 +1,5 @@
+IP Publica: 192.168.0.65
+IP Privada: 192.168.1.1
+Mascara Subred:  255.255.255.0
+MAC:  D4-5D-64-B5-00-87
+Con la dirección mac podemos obtener informacion sobre la placa de Red de nuestro computador.
