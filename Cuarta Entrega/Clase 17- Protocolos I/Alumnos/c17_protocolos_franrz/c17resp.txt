@@ -1,0 +1,3 @@
+● Dirección IP Pública  Pv4: ? 190.177.170.135 -clase c
+● Dirección IP Privada y su Máscara de subred  clase : c IPv4 Address. . . . . . . . . . . : 192.168.1.57(Preferred) ###---Subnet Mask . . . . . . . . . . . : 255.255.255.0
+● Dirección MAC Physical Address. . . . . . . . . : 7C-8B-CA-16-24-BB TP-LINK TECHNOLOGIES CO.,LTD.
