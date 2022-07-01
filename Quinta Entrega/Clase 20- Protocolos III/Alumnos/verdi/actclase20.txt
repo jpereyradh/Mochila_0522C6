@@ -1,0 +1,6 @@
+1. No, las IP publicas cambian en cada navegadir, cuando no uso VPN aparece mi IP con la localidad de mi casa, con VPN activada aparece una VPN OPERA totalmente distinta en una localidad alejada de mi dispositivo o modem y por ultimo con Tor la IP es oculta, es decir que los numeros que aparecen no llevan a ninguna geolocalizacion.
+2. Video no Disponible, no se puede abrir sin la VPN activa, pero cuando esta esta ON si se puede visualizar.
+3. Tor no muestra tu IP, solo muestra una de cualquier lado del mundo.
+4. Las Velocidades son distintas ya que la VPN es una red a la que me conecto que tiene su propia velocidad de descarga y subida ajena a la que pago a mi compania de internet 
+5. El ping es la medida que se ocupa para medir la latencia y es expresado en milisegundos (ms).
+6. El ping varia devido a que la distancia al servidor es mas o menos lejana y esto es lo que altera el numero que aparece en ms.
