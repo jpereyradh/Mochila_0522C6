@@ -1,0 +1,18 @@
+IP sin VPN: 24.232.72.18
+IP con VPN: 77.111.246.40
+IP en TOR: 185.86.151.168
+
+*¿Las ip públicas son las mismas? ¿por qué?
+ Las ip no son las mismas ya que lo que hace la vpn es dirigir nuestra conexion a traves de un servidor que ocultra la direccion IP y encripta la comunicacion online
+
+*Sin utilizar la VPN puedes ver el siguiente video? Ahora activala e intenta verlo, ¿que es lo que sucedió?¿Por qué?
+Cuando entre al link sin VPN no pude ver el video pero al activarlo si, porque este video es exclusivo para esa region 
+
+*Utilizando Tor ¿pudimos localizar la IP ?
+No, no se pudo
+
+
+
+SPEEDTEST
+En Opera sin VPN debemos consultar nuestra velocidad de subida, bajada y el ping, anotar estos valores.
+
