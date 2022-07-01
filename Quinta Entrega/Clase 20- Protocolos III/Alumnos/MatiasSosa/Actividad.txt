@@ -1,0 +1,22 @@
+Chrome sin VPN: 190.19.180.146
+Opera con VPN: 77.111.246.40
+Tor: 91.219.236.197
+
+-¿Las ip públicas son las mismas?¿Por que?
+	No son las mismas. La ip que se obtiene desde el chrome es la ip pública real de mi máquina. La ip que se obtiene del opera es la ip pública de la VPN. Y en TOR es una ip totalmente random
+
+-Sin utilizar la VPN puedes ver el siguiente video? Ahora activala e intenta verlo ¿que es lo que sucedió? ¿Por qué?
+	No se puede ver el video sin usar la VPN. Con la VPN activa se puede ver el video porque accedemos a una red que pertenece la pais de origen del video.
+
+-Utilizando Tor ¿pudimos localizar la IP ?
+	No
+
+¿Las velocidades en los test son diferentes? ¿Por qué crees que sucede esto?
+	Si. Eso sucede porque porque la información tarda mas en llegar desde una VPN o una red Tor que con el ISP.
+
+¿Que signiﬁca el valor del ping?
+	Es la unidad con la que se mide la velocidad de respuesta de la conexión.
+
+El valor del ping, ¿varia entre las diferentes opciones? ¿Por qué?
+	Si. Esto sucede porque la información recorre mas nodos utilizando una VPN o una red Tor que usando el ISP.
+
