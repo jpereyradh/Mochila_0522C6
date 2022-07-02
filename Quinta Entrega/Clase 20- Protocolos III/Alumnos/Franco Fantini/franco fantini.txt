@@ -1,0 +1,47 @@
+ actividad clase 20 vpn con opera
+
+ip publica sin vpn 190.190.xxx.17
+
+ip pùblica vpn on  77.111.246.40 y su geografia muestra estados unidos hutchinson
+
+ip publica tor 107.189.30.86  y su geografia es "anonymous proxy"
+
+
+las ip publicas no fueron las mismas, ya que sin vpn nuestra ip publica  obtuvo las respuestas de nuestro router
+en cambio con el vpn dirigimos el trafico de internet a traves de otra red virtual que se utiliza como tunel para mantener
+mi direccion de ip privada, con tor web nuestro trafico de internet se realiza a travez de manera anonima.
+
+no se pudo visualizar el video pero si con vpn, esto se debe que el video tiene una restrincion geografica y gracias al tunel 
+del vpn o red virtual nuestra geolocalizacion cambiaria de tal manera que podemos ver el video
+
+utilizando tor no se puedo geolocalizar la ip
+
+
+PING SIN VPN : 31
+DESCARGA MBPS : 120
+SUBIDA : 27 
+
+PING CON VPN: 222
+bajada 10
+subida 10
+
+tor pin 630
+bajada 30
+subida 3
+
+la informacion de la red viaja de distinta manera
+
+el ping es el tiempo de respuesta entre un dispositivo local y el servidor
+
+el ping cambia porque con el vpn modificamos la distancia o ruta entre el primer punto de comunicacion 
+y el punto final
+
+
+
+
+
+
+
+
+
+
