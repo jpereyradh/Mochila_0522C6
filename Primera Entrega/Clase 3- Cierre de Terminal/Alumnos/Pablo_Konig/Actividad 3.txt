@@ -1,0 +1,94 @@
+Electro@DESKTOP-2MA57JK MINGW64 ~
+$ mkdirDH
+bash: mkdirDH: command not found
+
+Electro@DESKTOP-2MA57JK MINGW64 ~
+$ mkdir DH
+
+Electro@DESKTOP-2MA57JK MINGW64 ~
+$ cd DH
+
+Electro@DESKTOP-2MA57JK MINGW64 ~/DH
+$ mkdir Peliculas
+
+Electro@DESKTOP-2MA57JK MINGW64 ~/DH
+$ cd Peliculas
+
+Electro@DESKTOP-2MA57JK MINGW64 ~/DH/Peliculas
+$ mkdir Infantiles Accion Terror Comedia Romanticas
+
+Electro@DESKTOP-2MA57JK MINGW64 ~/DH/Peliculas
+$ ls
+Accion/  Comedia/  Infantiles/  Romanticas/  Terror/
+
+Electro@DESKTOP-2MA57JK MINGW64 ~/DH/Peliculas
+$ cd Infantiles
+
+Electro@DESKTOP-2MA57JK MINGW64 ~/DH/Peliculas/Infantiles
+$ touch Intenzamente.txt "El juego del miedo.xls" "Rapido y furioso.pdf" Titanic.jpg
+
+Electro@DESKTOP-2MA57JK MINGW64 ~/DH/Peliculas/Infantiles
+$ cd ../
+
+Electro@DESKTOP-2MA57JK MINGW64 ~/DH/Peliculas
+$ cd Accion
+
+Electro@DESKTOP-2MA57JK MINGW64 ~/DH/Peliculas/Accion
+$ touch "Smooth criminal.txt" "Diario de una pasion.js" "El hexorcista.xls" Cars.jpg
+
+Electro@DESKTOP-2MA57JK MINGW64 ~/DH/Peliculas/Accion
+$ cd ..
+
+Electro@DESKTOP-2MA57JK MINGW64 ~/DH/Peliculas
+$ cd Terror
+
+Electro@DESKTOP-2MA57JK MINGW64 ~/DH/Peliculas/Terror
+$ touch "La dama y el bagavundo.png" "Yo antes de ti.xls" "Que paso ayer.pdf" "We will rock you.js"
+
+Electro@DESKTOP-2MA57JK MINGW64 ~/DH/Peliculas/Terror
+$ cd ..
+
+Electro@DESKTOP-2MA57JK MINGW64 ~/DH/Peliculas
+$ cd Comedia
+
+Electro@DESKTOP-2MA57JK MINGW64 ~/DH/Peliculas/Comedia
+$ touch "Madagaskar.js" "Orgullo y prejuicio.txt" IT.xls "Mision imposible.png"
+
+Electro@DESKTOP-2MA57JK MINGW64 ~/DH/Peliculas/Comedia
+$ cd ..
+
+Electro@DESKTOP-2MA57JK MINGW64 ~/DH/Peliculas
+$ ls
+Accion/  Comedia/  Infantiles/  Romanticas/  Terror/
+
+Electro@DESKTOP-2MA57JK MINGW64 ~/DH/Peliculas
+$ cd Romanticas
+
+Electro@DESKTOP-2MA57JK MINGW64 ~/DH/Peliculas/Romanticas
+$ touch Pocahontas.jpg Annabelle.js "Los vengadores.js" "La mascara.js"
+
+Electro@DESKTOP-2MA57JK MINGW64 ~/DH/Peliculas/Romanticas
+$ cd ..
+
+Electro@DESKTOP-2MA57JK MINGW64 ~/DH/Peliculas
+$ ls -R
+.:
+Accion/  Comedia/  Infantiles/  Romanticas/  Terror/
+
+./Accion:
+ Cars.jpg  'Diario de una pasion.js'  'El hexorcista.xls'  'Smooth criminal.txt'
+
+./Comedia:
+ IT.xls   Madagaskar.js  'Mision imposible.png'  'Orgullo y prejuicio.txt'
+
+./Infantiles:
+'El juego del miedo.xls'   Intenzamente.txt  'Rapido y furioso.pdf'   Titanic.jpg
+
+./Romanticas:
+ Annabelle.js  'La mascara.js'  'Los vengadores.js'   Pocahontas.jpg
+
+./Terror:
+'La dama y el bagavundo.png'  'Que paso ayer.pdf'  'We will rock you.js'  'Yo antes de ti.xls'
+
+Electro@DESKTOP-2MA57JK MINGW64 ~/DH/Peliculas
+$
