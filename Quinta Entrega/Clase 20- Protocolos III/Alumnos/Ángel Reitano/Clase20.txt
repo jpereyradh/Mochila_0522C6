@@ -1,0 +1,28 @@
+¿Las ip públicas son las mismas? ¿por qué?
+No, son todas distintas ya que cada una envia una solicitud desde servidores diferentes.
+
+Sin utilizar la VPN puedes ver el siguiente video? Ahora activala e intenta verlo,
+¿que es lo que sucedió?¿Por qué? No se puede acceder desde ningun navegador debido que tiene
+restricciones regionales, creemos que la forma de acceder es utilizando una vpn que utilice servidores
+ubicados dentro de regiones permitidas por ese sitio.
+
+Utilizando Tor ¿pudimos localizar la IP ?
+Si, pero como se aclaro en en primer punto, son IPs diferentes.
+
+Prueba de velocidades:
+TOR-		Descarga 6.57mbps 8.56mbps
+VPN-		Descarga 473.48mbps 98.56mbps
+Navegador-	Descarga 521.13mbps 99.71mbps
+
+¿Las velocidades en los test son diferentes? ¿Por qué crees que sucede esto?
+
+Todos los valores son diferentes, creemos que es porque la información atraviesa caminos más largos
+antes de llegar a el servidor de la pagina que intentamos acceder.
+
+¿Que significa el valor del ping?
+El valor de ping refiere a la latencia del transporte de la información. Es el tiempo que se demora en enviar y recibir paquetes.
+
+El valor del ping, ¿varia entre las diferentes opciones? ¿Por qué?
+Todos los valores son diferentes, creemos que es porque la información atraviesa caminos más largos
+antes de llegar a el servidor de la pagina que intentamos acceder.
+
