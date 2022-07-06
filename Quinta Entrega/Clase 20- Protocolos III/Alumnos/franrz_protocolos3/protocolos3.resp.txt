@@ -1,0 +1,29 @@
+¿Las velocidades en los test son diferentes? ¿Por qué crees que sucede esto?
+yes , latency divergence
+
+
+
+¡Que significa el valor del ping?
+
+Ping (latency is the technically more correct term) means the time it takes for a small data set to be transmitted from your device to a server on the Internet and back to your device again. The ping time is measured in milliseconds (ms).
+
+El valor del ping, ¿varia entre las diferentes opciones? ¿Por qué?
+
+yes, It slows down 
+
+Lets A=cliente  B=server
+
+If you surf from Chrome your data will go directly from
+
+A----->G
+
+if opera vpn turned-on A----H------G
+
+but if you surf from Tor, it will go as;
+
+A----->B--->C--->D---->E--->F----->G
+
+as you see, data went from multiple servers with different ips, so, it slows down connection.
+
+
+
