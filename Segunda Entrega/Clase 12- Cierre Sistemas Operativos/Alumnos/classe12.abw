@@ -1,0 +1,24 @@
+●Crearun archivo enGoogle Documents o Word en lacomputadora.●Investigarycontestarlas siguientes preguntas.1¿Que es un usuario root enLinux?2 ¿Por qué ubuntu no me deja establecer la contraseña durante lainstalación?3 ¿Cuáles son los procesos típicos de Linux?¿Cómo identificarlos?.4●Investigar y estableceruna contraseña para el usuarioroot5.●Subirel documento de manera individual en la mochila.
+
+
+1In Linux and Unix-like systems, the superuser account, called 'root', is virtually omnipotent, with unrestricted access to all commands, files, directories, and resources. Root can also grant and remove any permissions for other users.
+
+
+2You aren't supposed to add a password for the root account. We have something called the sudo mechanism to handle that. Instead, you add users to the admin account. All those users can then run commands or programs as root by running sudo command for terminal commands or gksu command for GUI apps to run as root, such as gksu gcalctool though that example obviously makes no sense)
+
+When you're being asked for a password when installing things, etc, it is your own password you should use. This way, it is possible to enable others to do administrative tasks without having to share passwords and keys. It is also configurable to allow someone to run a specific command as root, but not others, but you won't normally touch that.
+
+The first user you created is by default the admin account
+
+
+3    cmdline – displayed with ps
+    comm – command
+    limits – restrictions like maximum file handles
+    mounts – the visible mounts for the process
+    sched – time scheduler details
+    smaps – shared memory details
+    status – process details, ownership, memory usage
+
+ callout: ps , top command
+
+
