@@ -1,0 +1,13 @@
+Spotify port 4070
+Zoom primarily uses ports TCP 80 and TCP 443, but also TCP 8801 – 8802 and UDP 3478, 3479, 8801 – 8810. Zoom does not require any public-facing open ports to operate. It initiates the outbound connections to the Zoom servers, and uses this for all communications.
+The port range for Discord's local RPC server is [6463, 6472].
+Meet generates both TCP (port 443) and UDP (ports 443 and 19302​–19309) traffic.
+The default port for the WhatsApp Business API client is 5222 . If that port is not available, the application will fallback to port 443 . Port 443 needs to be opened for HTTPS at the minimum for application registration and restarts.
+Port 3306 is the default port for the classic MySQL protocol ( port ), which is used by the mysql client, MySQL Connectors, and utilities such as mysqldump and mysqlpump.
+The native git transport uses TCP port 9418. However, git can also run over ssh (often used for pushing), http, https, and less often others.01~
+Port 80
+The IP address is usually 127.0. 0.1. This is done by using a loopback address network. Port 80 is the common standard port for HTTP.01~
+Ports 22, 443, 3389, 18083, and 49152-65534 are configurable. On VirtualBox hosts, the HTTPS port is configured when you install VirtualBox. The VRDP ports are only required if the VRDP protocol is used to connect to desktops.
+Netflix uses TCP because TCP is much time-sensitive and does not require port forwarding.~
+TeamViewer prefers to make outbound TCP and UDP connections over port 5938 – this is the primary port it uses, and TeamViewer performs best using this port.
+
