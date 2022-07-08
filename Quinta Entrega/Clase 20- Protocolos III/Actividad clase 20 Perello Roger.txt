@@ -1,0 +1,35 @@
+ACTIVIDAD CLASE 20
+
+OPERA VPN
+https://www.cual-es-mi-ip.net/
+
+Dirección IP: 77.111.246.40
+Proveedor de Internet: Opera Mini Proxy
+País: United States, algún lugar cercano a Wichita
+Proxy: No
+
+CHROME SIN VPN
+https://www.cual-es-mi-ip.net/
+
+Dirección I.P: 190.230.123.61
+Proveedor de Internet: Personal
+País: Argentina, Martínez
+Proxy: No
+
+TOR VPN
+https://www.cual-es-mi-ip.net/
+
+Dirección IP: 89.58.16.24
+Proveedor de Inernet: netcup GmbH
+País: Anonymous Proxy, sin ubicación
+Proxy: No
+
+---PREGUNTAS
+1- Las ip no son las mismas, porque sin la VPN es la otorgada por el proveedor del servicio, identificando de manera única mi punto de conexión y con VPN se generan ips aleatorias, en un caso otorgandome una, brindada por un servidor de E.U y ubicando la ip en suelo estadounidense y en el otro, otorgandome una aleatoria pero brindada por un proveedor de internet que no vincula la ip a una localización geográfica.
+
+2- Sin utilizar la VPN no puedo acceder al video porque esta restringido para ips provenientes de una determinada zona geográfica. 
+Al utilizar mi conexión a través de mi proveedor de internet, el otro extremo de la conexión detecta que no correspondo a esa condición geográfica y no me permite ver el video. 
+Al utilizar Opera me permite ver el video.
+Al utilizar Tor, no me permite ver el video.
+
+3- Utilizando Tor no se pudo localizar la IP..
