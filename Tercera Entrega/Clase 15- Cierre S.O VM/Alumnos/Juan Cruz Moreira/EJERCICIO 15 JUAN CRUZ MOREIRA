@@ -1,0 +1,18 @@
+1)Porque el lenguaje de programación compila a lenguaje ensamblador. 
+Este lenguaje ensamblador depende de:
+-La arquitectura del procesador.
+-La interpretación que le de el sistema operativo.
+
+2)Virtual Box soporta:
+-GNU/Linux
+-Mac OS  X
+-OS/2 WARP
+-Genode
+-Windows
+-OpenSolaris
+
+3)Cumple la funcion de crear y ejecutar maquinas virtuales, toma recursos del 
+ordenador Host para crear las maquinas virtuales.
+
+4)No afecta a las demas porque cada una es individual y no estan relacionadas
+entre si.
