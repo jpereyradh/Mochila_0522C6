@@ -32,4 +32,4 @@ Al utilizar mi conexión a través de mi proveedor de internet, el otro extremo 
 Al utilizar Opera me permite ver el video.
 Al utilizar Tor, no me permite ver el video.
 
-3- Utilizando Tor no se pudo localizar la IP.
+3- Utilizando Tor no se pudo localizar la IP porque usa capas para ocultarla.
