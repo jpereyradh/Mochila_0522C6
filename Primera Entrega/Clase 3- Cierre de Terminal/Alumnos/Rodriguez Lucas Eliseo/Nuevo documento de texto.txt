@@ -1,0 +1,2 @@
+9) -Si, se pueden crear las carpetas del punto 2 en un solo comando. mkdir infantiles accion terror comedia romanticas.
+-Si, se pueden crear los archivos del punto 3 en un solo comando. touch intenzamente.txt "El juego del miedo.xls" "Rapido y furioso.pdf" "Titanic.jpg"

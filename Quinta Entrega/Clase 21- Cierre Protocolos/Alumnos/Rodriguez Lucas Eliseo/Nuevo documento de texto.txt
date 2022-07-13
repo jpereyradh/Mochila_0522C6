@@ -1,0 +1,19 @@
+Zoom - Puertos 80 y 443 TCP 
+Discord - Puerto 443 TCP 
+Meet - Puerto 443 TCP
+Whatsapp Web - Puertos 53 445 5222 52223 5228 TCP y 53 3478 UDP
+MySQL - Puerto 3306
+Git - Puerto 9418
+SSL - Puerto 443
+http - Puertos 80 443
+VirtualBox - Puerto 8080
+VPN - üertos 500 4500 UDP y 443 TCP
+Outlook - Puerto 587
+FTP - Puerto 21
+Word - Puerto 23419
+Skype - Puerto 443
+Epic Games - Puertos 443, 3478, 3479, 5060, 5062, 5222, 6250, y 12000-65000
+Fifa - Puertos 80, 443, 3478, 3479, 3480. UDP: 3478, 3479
+Netflix - Puerto 433
+Teamviewer - Puerto 5938
+Spotify - Puertos 4070 443 y 80
